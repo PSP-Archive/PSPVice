@@ -1,0 +1,1 @@
+menudefs.o menudefs.o: menudefs.c

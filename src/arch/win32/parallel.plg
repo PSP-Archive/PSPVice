@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: parallel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP159.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\vdrive" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\parallel\Debug/parallel.pch" /YX /Fo"libs\parallel\Debug/" /Fd"libs\parallel\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\parallel\parallel-trap.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\parallel\parallel.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP159.tmp" 
+Creating command line "link.exe -lib /nologo /out:"libs\parallel\Debug\parallel.lib"  ".\libs\parallel\Debug\parallel-trap.obj" .\libs\parallel\Debug\parallel.obj "
+<h3>Output Window</h3>
+Compiling...
+parallel-trap.c
+parallel.c
+Creating library...
+
+
+
+<h3>Results</h3>
+parallel.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

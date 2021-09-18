@@ -1,0 +1,10 @@
+c128kbd.o c128kbd.o: c128kbd.c vkeyboard.h bitmap.h \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h ps2kbd.h
+
+vkeyboard.h:
+
+bitmap.h:
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+ps2kbd.h:

@@ -1,0 +1,91 @@
+tuifs.o tuifs.o: tuifs.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/include/sys/param.h \
+  /usr/local/ps2dev/ee/ee/include/ctype.h \
+  /usr/local/ps2dev/ee/ee/include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/include/sys/config.h \
+  /usr/local/ps2dev/ee/ee/include/errno.h \
+  /usr/local/ps2dev/ee/ee/include/sys/errno.h \
+  /usr/local/ps2dev/ee/ee/include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/include/sys/_types.h \
+  /usr/local/ps2dev/ee/ee/include/stdio.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdlib.h \
+  /usr/local/ps2dev/ee/ee/include/string.h \
+  /usr/local/ps2dev/ee/ee/include/sys/stat.h \
+  /usr/local/ps2dev/ee/ee/include/time.h \
+  /usr/local/ps2dev/ee/ee/include/machine/time.h \
+  /usr/local/ps2dev/ee/ee/include/sys/types.h \
+  /usr/local/ps2dev/ee/ee/include/machine/types.h \
+  /usr/local/ps2dev/ee/ee/include/sys/features.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/unistd.h \
+  ../../../src/imagecontents.h types.h ../../../src/ioutil.h \
+  ../../../src/lib.h ../../../src/util.h tui.h tui_backend.h \
+  tuiimagebrowser.h tuifs.h tuiview.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/param.h:
+
+/usr/local/ps2dev/ee/ee/include/ctype.h:
+
+/usr/local/ps2dev/ee/ee/include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/config.h:
+
+/usr/local/ps2dev/ee/ee/include/errno.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/errno.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/_types.h:
+
+/usr/local/ps2dev/ee/ee/include/stdio.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdlib.h:
+
+/usr/local/ps2dev/ee/ee/include/string.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/stat.h:
+
+/usr/local/ps2dev/ee/ee/include/time.h:
+
+/usr/local/ps2dev/ee/ee/include/machine/time.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/types.h:
+
+/usr/local/ps2dev/ee/ee/include/machine/types.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/features.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/unistd.h:
+
+../../../src/imagecontents.h:
+
+types.h:
+
+../../../src/ioutil.h:
+
+../../../src/lib.h:
+
+../../../src/util.h:
+
+tui.h:
+
+tui_backend.h:
+
+tuiimagebrowser.h:
+
+tuifs.h:
+
+tuiview.h:

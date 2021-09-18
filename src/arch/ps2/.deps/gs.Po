@@ -1,0 +1,15 @@
+gs.o gs.o: gs.c ps2.h defines.h gs.h regs.h g2.h gif.h dma.h
+
+ps2.h:
+
+defines.h:
+
+gs.h:
+
+regs.h:
+
+g2.h:
+
+gif.h:
+
+dma.h:

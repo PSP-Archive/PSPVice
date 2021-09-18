@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: iecbus - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP153.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\vdrive" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\iecbus\Debug/iecbus.pch" /YX /Fo"libs\iecbus\Debug/" /Fd"libs\iecbus\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\iecbus\iecbus.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP153.tmp" 
+Creating command line "link.exe -lib /nologo /out:"libs\iecbus\Debug\iecbus.lib"  .\libs\iecbus\Debug\iecbus.obj .\libs\base\Debug\base.lib "
+<h3>Output Window</h3>
+Compiling...
+iecbus.c
+Creating library...
+
+
+
+<h3>Results</h3>
+iecbus.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

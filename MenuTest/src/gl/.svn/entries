@@ -1,0 +1,53 @@
+8
+
+dir
+153
+svn://10.0.0.104/Indiana_Jones/Trunk/Sources/LowLevel/gl
+svn://10.0.0.104/Indiana_Jones
+
+
+
+2007-12-22T01:02:35.972900Z
+144
+Christophe
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e39de022-68db-9143-81b8-4df4e5a53176
+
+glut.h
+file
+
+
+
+
+2007-12-21T23:58:49.270374Z
+6c2c5169a4d469f70f5d6100f57bc1f4
+2007-12-22T01:02:35.972900Z
+144
+Christophe
+
+glut32.lib
+file
+
+
+
+
+2007-12-18T14:11:12.728716Z
+0693d9e5c884970773b422f46da18036
+2007-12-07T16:18:40.309583Z
+62
+Thibaut
+has-props
+

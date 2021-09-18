@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15A.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /I "..\..\tape" /I "..\..\crtc" /I "..\..\raster" /I "..\..\monitor" /I "..\..\sid" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\pet\Debug/pet.pch" /YX /Fo"libs\pet\Debug/" /Fd"libs\pet\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\pet-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\pet-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\pet-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\pet.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petacia1.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petbus.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petdatasette.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petdrive.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petiec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petmem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petmemsnapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petpia1.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petpia2.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petprinter.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petreu.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petrom.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petromset.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petsound.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petvia.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\pet\petvideo.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15A.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15B.tmp" with contents
+[
+/nologo /out:"libs\pet\Debug\pet.lib" 
+".\libs\pet\Debug\pet-cmdline-options.obj"
+".\libs\pet\Debug\pet-resources.obj"
+".\libs\pet\Debug\pet-snapshot.obj"
+.\libs\pet\Debug\pet.obj
+.\libs\pet\Debug\petacia1.obj
+.\libs\pet\Debug\petbus.obj
+.\libs\pet\Debug\petdatasette.obj
+.\libs\pet\Debug\petdrive.obj
+.\libs\pet\Debug\petiec.obj
+.\libs\pet\Debug\petmem.obj
+.\libs\pet\Debug\petmemsnapshot.obj
+.\libs\pet\Debug\petpia1.obj
+.\libs\pet\Debug\petpia2.obj
+.\libs\pet\Debug\petprinter.obj
+.\libs\pet\Debug\petreu.obj
+.\libs\pet\Debug\petrom.obj
+.\libs\pet\Debug\petromset.obj
+.\libs\pet\Debug\petsound.obj
+.\libs\pet\Debug\petvia.obj
+.\libs\pet\Debug\petvideo.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15B.tmp"
+<h3>Output Window</h3>
+Compiling...
+pet-cmdline-options.c
+pet-resources.c
+pet-snapshot.c
+pet.c
+petacia1.c
+petbus.c
+petdatasette.c
+petdrive.c
+petiec.c
+petmem.c
+petmemsnapshot.c
+petpia1.c
+petpia2.c
+petprinter.c
+petreu.c
+petrom.c
+petromset.c
+petsound.c
+petvia.c
+petvideo.c
+Creating library...
+
+
+
+<h3>Results</h3>
+pet.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

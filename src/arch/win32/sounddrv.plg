@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sounddrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17E.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\sounddrv\Debug/sounddrv.pch" /YX /Fo"libs\sounddrv\Debug/" /Fd"libs\sounddrv\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundaiff.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\sounddummy.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\sounddump.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\sounddx.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundffmpegaudio.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundfs.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundiff.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundspeed.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundvoc.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundwav.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sounddrv\soundwmm.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17E.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17F.tmp" with contents
+[
+/nologo /out:"libs\sounddrv\Debug\sounddrv.lib" 
+.\libs\sounddrv\Debug\soundaiff.obj
+.\libs\sounddrv\Debug\sounddummy.obj
+.\libs\sounddrv\Debug\sounddump.obj
+.\libs\sounddrv\Debug\sounddx.obj
+.\libs\sounddrv\Debug\soundffmpegaudio.obj
+.\libs\sounddrv\Debug\soundfs.obj
+.\libs\sounddrv\Debug\soundiff.obj
+.\libs\sounddrv\Debug\soundspeed.obj
+.\libs\sounddrv\Debug\soundvoc.obj
+.\libs\sounddrv\Debug\soundwav.obj
+.\libs\sounddrv\Debug\soundwmm.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17F.tmp"
+<h3>Output Window</h3>
+Compiling...
+soundaiff.c
+sounddummy.c
+sounddump.c
+sounddx.c
+soundffmpegaudio.c
+soundfs.c
+soundiff.c
+soundspeed.c
+soundvoc.c
+soundwav.c
+soundwmm.c
+Creating library...
+
+
+
+<h3>Results</h3>
+sounddrv.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

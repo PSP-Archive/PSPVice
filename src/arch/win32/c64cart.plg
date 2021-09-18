@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: c64cart - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP141.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\c64" /I "..\..\vicii" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\c64cart\Debug/c64cart.pch" /YX /Fo"libs\c64cart\Debug/" /Fd"libs\c64cart\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\actionreplay3.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\actionreplay.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\atomicpower.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\c64cart.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\c64cartmem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\comal80.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\crt.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\delaep256.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\delaep64.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\delaep7x8.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\epyxfastload.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\expert.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\final.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\generic.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\ide64.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\kcs.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\magicformel.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\mikroass.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\retroreplay.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\rexep256.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\ross.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\stb.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\supergames.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\supersnapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c64\cart\zaxxon.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP141.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP142.tmp" with contents
+[
+/nologo /out:"libs\c64cart\Debug\c64cart.lib" 
+.\libs\c64cart\Debug\actionreplay3.obj
+.\libs\c64cart\Debug\actionreplay.obj
+.\libs\c64cart\Debug\atomicpower.obj
+.\libs\c64cart\Debug\c64cart.obj
+.\libs\c64cart\Debug\c64cartmem.obj
+.\libs\c64cart\Debug\comal80.obj
+.\libs\c64cart\Debug\crt.obj
+.\libs\c64cart\Debug\delaep256.obj
+.\libs\c64cart\Debug\delaep64.obj
+.\libs\c64cart\Debug\delaep7x8.obj
+.\libs\c64cart\Debug\epyxfastload.obj
+.\libs\c64cart\Debug\expert.obj
+.\libs\c64cart\Debug\final.obj
+.\libs\c64cart\Debug\generic.obj
+.\libs\c64cart\Debug\ide64.obj
+.\libs\c64cart\Debug\kcs.obj
+.\libs\c64cart\Debug\magicformel.obj
+.\libs\c64cart\Debug\mikroass.obj
+.\libs\c64cart\Debug\retroreplay.obj
+.\libs\c64cart\Debug\rexep256.obj
+.\libs\c64cart\Debug\ross.obj
+.\libs\c64cart\Debug\stb.obj
+.\libs\c64cart\Debug\supergames.obj
+.\libs\c64cart\Debug\supersnapshot.obj
+.\libs\c64cart\Debug\zaxxon.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP142.tmp"
+<h3>Output Window</h3>
+Compiling...
+actionreplay3.c
+actionreplay.c
+atomicpower.c
+c64cart.c
+c64cartmem.c
+comal80.c
+crt.c
+delaep256.c
+delaep64.c
+delaep7x8.c
+epyxfastload.c
+expert.c
+final.c
+generic.c
+ide64.c
+kcs.c
+magicformel.c
+mikroass.c
+retroreplay.c
+rexep256.c
+ross.c
+stb.c
+supergames.c
+supersnapshot.c
+zaxxon.c
+Creating library...
+
+
+
+<h3>Results</h3>
+c64cart.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

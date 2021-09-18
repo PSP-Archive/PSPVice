@@ -1,0 +1,651 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: base - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\lib\zlib" /I "..\..\drive" /I "..\..\vdrive" /I "..\..\rs232drv" /D "DONT_USE_UNISTD_H" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\base\Debug/base.pch" /YX /Fo"libs\base\Debug/" /Fd"libs\base\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\autostart.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\ioutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /out:"libs\base\Debug\base.lib" 
+.\libs\base\Debug\alarm.obj
+.\libs\base\Debug\attach.obj
+.\libs\base\Debug\autostart.obj
+.\libs\base\Debug\charset.obj
+.\libs\base\Debug\cbmdos.obj
+.\libs\base\Debug\cbmimage.obj
+.\libs\base\Debug\clkguard.obj
+.\libs\base\Debug\cmdline.obj
+.\libs\base\Debug\color.obj
+.\libs\base\Debug\crc32.obj
+.\libs\base\Debug\datasette.obj
+.\libs\base\Debug\debug.obj
+.\libs\base\Debug\dma.obj
+.\libs\base\Debug\emuid.obj
+.\libs\base\Debug\event.obj
+.\libs\base\Debug\findpath.obj
+.\libs\base\Debug\fliplist.obj
+.\libs\base\Debug\gcr.obj
+.\libs\base\Debug\info.obj
+.\libs\base\Debug\init.obj
+.\libs\base\Debug\initcmdline.obj
+.\libs\base\Debug\interrupt.obj
+.\libs\base\Debug\ioutil.obj
+.\libs\base\Debug\joystick.obj
+.\libs\base\Debug\kbdbuf.obj
+.\libs\base\Debug\keyboard.obj
+.\libs\base\Debug\lib.obj
+.\libs\base\Debug\log.obj
+".\libs\base\Debug\machine-bus.obj"
+.\libs\base\Debug\machine.obj
+.\libs\base\Debug\mouse.obj
+.\libs\base\Debug\network.obj
+.\libs\base\Debug\palette.obj
+.\libs\base\Debug\ram.obj
+.\libs\base\Debug\rawfile.obj
+.\libs\base\Debug\resources.obj
+.\libs\base\Debug\romset.obj
+.\libs\base\Debug\screenshot.obj
+.\libs\base\Debug\snapshot.obj
+.\libs\base\Debug\sound.obj
+.\libs\base\Debug\sysfile.obj
+.\libs\base\Debug\translate.obj
+.\libs\base\Debug\traps.obj
+.\libs\base\Debug\util.obj
+.\libs\base\Debug\vsync.obj
+.\libs\base\Debug\zfile.obj
+.\libs\base\Debug\zipcode.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP19.tmp"
+<h3>Output Window</h3>
+Compiling...
+autostart.c
+ioutil.c
+Creating library...
+<h3>
+--------------------Configuration: arch - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /out:"libs\arch\Debug\arch.lib" 
+.\libs\arch\Debug\archdep.obj
+.\libs\arch\Debug\blockdev.obj
+.\libs\arch\Debug\c128ui.obj
+.\libs\arch\Debug\c64ui.obj
+.\libs\arch\Debug\catweaselmkiii.obj
+.\libs\arch\Debug\cbm2ui.obj
+.\libs\arch\Debug\console.obj
+.\libs\arch\Debug\dirent.obj
+.\libs\arch\Debug\ffmpeglib.obj
+.\libs\arch\Debug\fullscrn.obj
+.\libs\arch\Debug\gifdrv.obj
+.\libs\arch\Debug\hardsid.obj
+.\libs\arch\Debug\intl.obj
+.\libs\arch\Debug\joy.obj
+.\libs\arch\Debug\kbd.obj
+.\libs\arch\Debug\mousedrv.obj
+.\libs\arch\Debug\opencbmlib.obj
+.\libs\arch\Debug\parsid.obj
+.\libs\arch\Debug\petui.obj
+.\libs\arch\Debug\plus4ui.obj
+.\libs\arch\Debug\rs232.obj
+.\libs\arch\Debug\signals.obj
+.\libs\arch\Debug\statusbar.obj
+.\libs\arch\Debug\system.obj
+.\libs\arch\Debug\tfearch.obj
+".\libs\arch\Debug\ui-resources.obj"
+.\libs\arch\Debug\ui.obj
+.\libs\arch\Debug\uiacia.obj
+.\libs\arch\Debug\uiattach.obj
+.\libs\arch\Debug\uic128.obj
+.\libs\arch\Debug\uic64_256k.obj
+.\libs\arch\Debug\uic64cart.obj
+.\libs\arch\Debug\uicart.obj
+.\libs\arch\Debug\uicbm2set.obj
+.\libs\arch\Debug\uicmdline.obj
+.\libs\arch\Debug\uiconsole.obj
+.\libs\arch\Debug\uidatasette.obj
+.\libs\arch\Debug\uidigimax.obj
+.\libs\arch\Debug\uidrivec128.obj
+.\libs\arch\Debug\uidrivec64.obj
+.\libs\arch\Debug\uidrivepetcbm2.obj
+.\libs\arch\Debug\uidriveplus4.obj
+.\libs\arch\Debug\uidrivevic20.obj
+.\libs\arch\Debug\uievent.obj
+.\libs\arch\Debug\uifliplist.obj
+.\libs\arch\Debug\uigeoram.obj
+.\libs\arch\Debug\uihelp.obj
+.\libs\arch\Debug\uiide64.obj
+.\libs\arch\Debug\uijoystick.obj
+.\libs\arch\Debug\uikeyboard.obj
+.\libs\arch\Debug\uilib.obj
+.\libs\arch\Debug\uimediafile.obj
+.\libs\arch\Debug\uimon.obj
+.\libs\arch\Debug\uinetwork.obj
+.\libs\arch\Debug\uiperipheral.obj
+.\libs\arch\Debug\uipetreu.obj
+.\libs\arch\Debug\uipetset.obj
+.\libs\arch\Debug\uiplus4cart.obj
+.\libs\arch\Debug\uiplus4mem.obj
+.\libs\arch\Debug\uiplus256k.obj
+.\libs\arch\Debug\uiplus60k.obj
+.\libs\arch\Debug\uiquicksnapshot.obj
+.\libs\arch\Debug\uiram.obj
+.\libs\arch\Debug\uiramcart.obj
+.\libs\arch\Debug\uimmc64.obj
+.\libs\arch\Debug\uireu.obj
+.\libs\arch\Debug\uirom.obj
+.\libs\arch\Debug\uirs232.obj
+.\libs\arch\Debug\uirs232user.obj
+.\libs\arch\Debug\uisid.obj
+.\libs\arch\Debug\uisidcart.obj
+.\libs\arch\Debug\uisnapshot.obj
+.\libs\arch\Debug\uisound.obj
+.\libs\arch\Debug\uispeed.obj
+.\libs\arch\Debug\uitfe.obj
+.\libs\arch\Debug\uivicii.obj
+.\libs\arch\Debug\uivicset.obj
+.\libs\arch\Debug\uivideo.obj
+.\libs\arch\Debug\vic20ui.obj
+.\libs\arch\Debug\video.obj
+.\libs\arch\Debug\vsidui.obj
+.\libs\arch\Debug\vsyncarch.obj
+.\libs\arch\Debug\winmain.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: c64 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+/nologo /out:"libs\c64\Debug\c64.lib" 
+".\libs\c64\Debug\c64-cmdline-options.obj"
+".\libs\c64\Debug\c64-resources.obj"
+".\libs\c64\Debug\c64-snapshot.obj"
+.\libs\c64\Debug\c64_256k.obj
+.\libs\c64\Debug\c64.obj
+.\libs\c64\Debug\c64acia1.obj
+.\libs\c64\Debug\c64bus.obj
+.\libs\c64\Debug\c64cia1.obj
+.\libs\c64\Debug\c64cia2.obj
+.\libs\c64\Debug\c64datasette.obj
+.\libs\c64\Debug\c64drive.obj
+.\libs\c64\Debug\c64export.obj
+.\libs\c64\Debug\c64fastiec.obj
+.\libs\c64\Debug\c64iec.obj
+.\libs\c64\Debug\c64io.obj
+.\libs\c64\Debug\c64keyboard.obj
+.\libs\c64\Debug\c64mem.obj
+.\libs\c64\Debug\c64meminit.obj
+.\libs\c64\Debug\c64memlimit.obj
+.\libs\c64\Debug\c64memrom.obj
+.\libs\c64\Debug\c64memsnapshot.obj
+.\libs\c64\Debug\c64parallel.obj
+.\libs\c64\Debug\c64pla.obj
+.\libs\c64\Debug\c64printer.obj
+.\libs\c64\Debug\c64rom.obj
+.\libs\c64\Debug\c64romset.obj
+.\libs\c64\Debug\c64rsuser.obj
+.\libs\c64\Debug\c64sound.obj
+.\libs\c64\Debug\c64tpi.obj
+.\libs\c64\Debug\c64video.obj
+.\libs\c64\Debug\digimax.obj
+.\libs\c64\Debug\georam.obj
+.\libs\c64\Debug\mmc64.obj
+.\libs\c64\Debug\patchrom.obj
+.\libs\c64\Debug\plus256k.obj
+.\libs\c64\Debug\plus60k.obj
+.\libs\c64\Debug\psid.obj
+.\libs\c64\Debug\ramcart.obj
+.\libs\c64\Debug\reloc65.obj
+.\libs\c64\Debug\reu.obj
+.\libs\c64\Debug\tfe.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1B.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: drive - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /out:"libs\drive\Debug\drive.lib" 
+".\libs\drive\Debug\drive-check.obj"
+".\libs\drive\Debug\drive-cmdline-options.obj"
+".\libs\drive\Debug\drive-overflow.obj"
+".\libs\drive\Debug\drive-resources.obj"
+".\libs\drive\Debug\drive-snapshot.obj"
+".\libs\drive\Debug\drive-writeprotect.obj"
+.\libs\drive\Debug\drive.obj
+.\libs\drive\Debug\drivecpu.obj
+.\libs\drive\Debug\driveimage.obj
+.\libs\drive\Debug\drivemem.obj
+.\libs\drive\Debug\driverom.obj
+.\libs\drive\Debug\drivesync.obj
+.\libs\drive\Debug\rotation.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1C.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: fileio - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\vdrive" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\fileio\Debug/fileio.pch" /YX /Fo"libs\fileio\Debug/" /Fd"libs\fileio\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\fileio\p00.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1D.tmp" 
+Creating command line "link.exe -lib /nologo /out:"libs\fileio\Debug\fileio.lib"  .\libs\fileio\Debug\cbmfile.obj .\libs\fileio\Debug\fileio.obj .\libs\fileio\Debug\p00.obj "
+<h3>Output Window</h3>
+Compiling...
+p00.c
+Creating library...
+<h3>
+--------------------Configuration: fsdevice - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /out:"libs\fsdevice\Debug\fsdevice.lib" 
+".\libs\fsdevice\Debug\fsdevice-close.obj"
+".\libs\fsdevice\Debug\fsdevice-cmdline-options.obj"
+".\libs\fsdevice\Debug\fsdevice-flush.obj"
+".\libs\fsdevice\Debug\fsdevice-open.obj"
+".\libs\fsdevice\Debug\fsdevice-read.obj"
+".\libs\fsdevice\Debug\fsdevice-resources.obj"
+".\libs\fsdevice\Debug\fsdevice-write.obj"
+.\libs\fsdevice\Debug\fsdevice.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: gfxoutputdrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1F.tmp" with contents
+[
+/nologo /out:"libs\gfxoutputdrv\Debug\gfxoutputdrv.lib" 
+.\libs\gfxoutputdrv\Debug\bmpdrv.obj
+.\libs\gfxoutputdrv\Debug\ffmpegdrv.obj
+.\libs\gfxoutputdrv\Debug\gfxoutput.obj
+.\libs\gfxoutputdrv\Debug\iffdrv.obj
+.\libs\gfxoutputdrv\Debug\pcxdrv.obj
+.\libs\gfxoutputdrv\Debug\pngdrv.obj
+.\libs\gfxoutputdrv\Debug\ppmdrv.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP1F.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: iec - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP20.tmp" with contents
+[
+/nologo /out:"libs\iec\Debug\iec.lib" 
+.\libs\iec\Debug\cia1571d.obj
+.\libs\iec\Debug\cia1581d.obj
+.\libs\iec\Debug\glue1571.obj
+".\libs\iec\Debug\iec-cmdline-options.obj"
+".\libs\iec\Debug\iec-resources.obj"
+.\libs\iec\Debug\iec.obj
+.\libs\iec\Debug\iecrom.obj
+.\libs\iec\Debug\memiec.obj
+.\libs\iec\Debug\via1d1541.obj
+.\libs\iec\Debug\wd1770.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP20.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: c64exp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /out:"libs\c64exp\Debug\c64exp.lib" 
+".\libs\c64exp\Debug\c64exp-cmdline-options.obj"
+".\libs\c64exp\Debug\c64exp-resources.obj"
+".\libs\c64exp\Debug\iec-c64exp.obj"
+.\libs\c64exp\Debug\mc6821.obj
+.\libs\c64exp\Debug\profdos.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP21.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: iecieee - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe -lib /nologo /out:"libs\iecieee\Debug\iecieee.lib"  .\libs\iecieee\Debug\iecieee.obj .\libs\iecieee\Debug\via2d.obj .\libs\base\Debug\base.lib "
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: ieee - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+/nologo /out:"libs\ieee\Debug\ieee.lib" 
+.\libs\ieee\Debug\fdc.obj
+".\libs\ieee\Debug\ieee-cmdline-options.obj"
+".\libs\ieee\Debug\ieee-resources.obj"
+.\libs\ieee\Debug\ieee.obj
+.\libs\ieee\Debug\ieeerom.obj
+.\libs\ieee\Debug\memieee.obj
+.\libs\ieee\Debug\riot1d.obj
+.\libs\ieee\Debug\riot2d.obj
+.\libs\ieee\Debug\via1d2031.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP22.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: printerdrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /out:"libs\printerdrv\Debug\printerdrv.lib" 
+".\libs\printerdrv\Debug\driver-select.obj"
+".\libs\printerdrv\Debug\drv-ascii.obj"
+".\libs\printerdrv\Debug\drv-mps803.obj"
+".\libs\printerdrv\Debug\drv-nl10.obj"
+".\libs\printerdrv\Debug\interface-serial.obj"
+".\libs\printerdrv\Debug\interface-userport.obj"
+".\libs\printerdrv\Debug\output-graphics.obj"
+".\libs\printerdrv\Debug\output-select.obj"
+".\libs\printerdrv\Debug\output-text.obj"
+".\libs\printerdrv\Debug\printer-serial.obj"
+".\libs\printerdrv\Debug\printer-userport.obj"
+.\libs\printerdrv\Debug\printer.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP23.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: rs232drv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe -lib /nologo /out:"libs\rs232drv\Debug\rs232drv.lib"  .\libs\rs232drv\Debug\rs232drv.obj .\libs\rs232drv\Debug\rsuser.obj .\libs\base\Debug\base.lib "
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: serial - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /out:"libs\serial\Debug\serial.lib" 
+.\libs\serial\Debug\fsdrive.obj
+.\libs\serial\Debug\realdevice.obj
+".\libs\serial\Debug\serial-device.obj"
+".\libs\serial\Debug\serial-iec-bus.obj"
+".\libs\serial\Debug\serial-iec-device.obj"
+".\libs\serial\Debug\serial-iec-lib.obj"
+".\libs\serial\Debug\serial-iec.obj"
+".\libs\serial\Debug\serial-realdevice.obj"
+".\libs\serial\Debug\serial-trap.obj"
+.\libs\serial\Debug\serial.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP24.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: sid - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+/nologo /out:"libs\sid\Debug\sid.lib" 
+.\libs\sid\Debug\fastsid.obj
+.\libs\sid\Debug\resid.obj
+".\libs\sid\Debug\sid-cmdline-options.obj"
+".\libs\sid\Debug\sid-resources.obj"
+".\libs\sid\Debug\sid-snapshot.obj"
+.\libs\sid\Debug\sid.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP25.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: vicii - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP26.tmp" with contents
+[
+/nologo /out:"libs\vicii\Debug\vicii.lib" 
+".\libs\vicii\Debug\vicii-badline.obj"
+".\libs\vicii\Debug\vicii-clock-stretch.obj"
+".\libs\vicii\Debug\vicii-cmdline-options.obj"
+".\libs\vicii\Debug\vicii-color.obj"
+".\libs\vicii\Debug\vicii-draw.obj"
+".\libs\vicii\Debug\vicii-fetch.obj"
+".\libs\vicii\Debug\vicii-irq.obj"
+".\libs\vicii\Debug\vicii-mem.obj"
+".\libs\vicii\Debug\vicii-phi1.obj"
+".\libs\vicii\Debug\vicii-resources.obj"
+".\libs\vicii\Debug\vicii-snapshot.obj"
+".\libs\vicii\Debug\vicii-sprites.obj"
+".\libs\vicii\Debug\vicii-timing.obj"
+.\libs\vicii\Debug\vicii.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP26.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: raster - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /out:"libs\raster\Debug\raster.lib" 
+".\libs\raster\Debug\raster-cache.obj"
+".\libs\raster\Debug\raster-canvas.obj"
+".\libs\raster\Debug\raster-changes.obj"
+".\libs\raster\Debug\raster-cmdline-options.obj"
+".\libs\raster\Debug\raster-line-changes-sprite.obj"
+".\libs\raster\Debug\raster-line-changes.obj"
+".\libs\raster\Debug\raster-line.obj"
+".\libs\raster\Debug\raster-modes.obj"
+".\libs\raster\Debug\raster-resources.obj"
+".\libs\raster\Debug\raster-sprite-cache.obj"
+".\libs\raster\Debug\raster-sprite-status.obj"
+".\libs\raster\Debug\raster-sprite.obj"
+.\libs\raster\Debug\raster.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP27.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: video - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\c64" /I "..\..\raster" /I "..\..\video" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\video\Debug/video.pch" /YX /Fo"libs\video\Debug/" /Fd"libs\video\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\video\render1x1.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP28.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /out:"libs\video\Debug\video.lib" 
+.\libs\video\Debug\render1x1.obj
+.\libs\video\Debug\render1x1pal.obj
+.\libs\video\Debug\render1x2.obj
+.\libs\video\Debug\render2x2.obj
+.\libs\video\Debug\render2x2pal.obj
+.\libs\video\Debug\renderscale2x.obj
+.\libs\video\Debug\renderyuv.obj
+".\libs\video\Debug\video-canvas.obj"
+".\libs\video\Debug\video-cmdline-options.obj"
+".\libs\video\Debug\video-color.obj"
+".\libs\video\Debug\video-render-1x2.obj"
+".\libs\video\Debug\video-render-2x2.obj"
+".\libs\video\Debug\video-render-pal.obj"
+".\libs\video\Debug\video-render.obj"
+".\libs\video\Debug\video-resources-pal.obj"
+".\libs\video\Debug\video-resources.obj"
+".\libs\video\Debug\video-viewport.obj"
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP29.tmp"
+<h3>Output Window</h3>
+Compiling...
+render1x1.c
+Creating library...
+<h3>
+--------------------Configuration: monitor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /out:"libs\monitor\Debug\monitor.lib" 
+.\libs\monitor\Debug\asm6502.obj
+.\libs\monitor\Debug\asmz80.obj
+.\libs\monitor\Debug\mon_assemble6502.obj
+.\libs\monitor\Debug\mon_assemblez80.obj
+.\libs\monitor\Debug\mon_breakpoint.obj
+.\libs\monitor\Debug\mon_command.obj
+.\libs\monitor\Debug\mon_disassemble.obj
+.\libs\monitor\Debug\mon_drive.obj
+.\libs\monitor\Debug\mon_file.obj
+.\libs\monitor\Debug\mon_lex.obj
+.\libs\monitor\Debug\mon_memory.obj
+.\libs\monitor\Debug\mon_parse.obj
+.\libs\monitor\Debug\mon_register6502.obj
+.\libs\monitor\Debug\mon_registerz80.obj
+.\libs\monitor\Debug\mon_ui.obj
+.\libs\monitor\Debug\mon_util.obj
+.\libs\monitor\Debug\monitor.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP2A.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: c64cart - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP2B.tmp" with contents
+[
+/nologo /out:"libs\c64cart\Debug\c64cart.lib" 
+.\libs\c64cart\Debug\actionreplay3.obj
+.\libs\c64cart\Debug\actionreplay.obj
+.\libs\c64cart\Debug\atomicpower.obj
+.\libs\c64cart\Debug\c64cart.obj
+.\libs\c64cart\Debug\c64cartmem.obj
+.\libs\c64cart\Debug\comal80.obj
+.\libs\c64cart\Debug\crt.obj
+.\libs\c64cart\Debug\delaep256.obj
+.\libs\c64cart\Debug\delaep64.obj
+.\libs\c64cart\Debug\delaep7x8.obj
+.\libs\c64cart\Debug\epyxfastload.obj
+.\libs\c64cart\Debug\expert.obj
+.\libs\c64cart\Debug\final.obj
+.\libs\c64cart\Debug\generic.obj
+.\libs\c64cart\Debug\ide64.obj
+.\libs\c64cart\Debug\kcs.obj
+.\libs\c64cart\Debug\magicformel.obj
+.\libs\c64cart\Debug\mikroass.obj
+.\libs\c64cart\Debug\retroreplay.obj
+.\libs\c64cart\Debug\rexep256.obj
+.\libs\c64cart\Debug\ross.obj
+.\libs\c64cart\Debug\stb.obj
+.\libs\c64cart\Debug\supergames.obj
+.\libs\c64cart\Debug\supersnapshot.obj
+.\libs\c64cart\Debug\zaxxon.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP2B.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: iecbus - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe -lib /nologo /out:"libs\iecbus\Debug\iecbus.lib"  .\libs\iecbus\Debug\iecbus.obj .\libs\base\Debug\base.lib "
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: x64 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP2C.tmp" with contents
+[
+dxguid.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib comctl32.lib winmm.lib ddraw.lib dsound.lib dinput.lib wsock32.lib version.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\..\..\data/x64.pdb" /debug /machine:I386 /out:"..\..\..\data/x64.exe" /pdbtype:sept 
+.\libs\x64\Debug\main.obj
+.\libs\x64\Debug\maincpu.obj
+.\resc64cat.res
+.\libs\arch\Debug\arch.lib
+.\libs\base\Debug\base.lib
+.\libs\c64\Debug\c64.lib
+.\libs\drive\Debug\drive.lib
+.\libs\fileio\Debug\fileio.lib
+.\libs\fsdevice\Debug\fsdevice.lib
+.\libs\gfxoutputdrv\Debug\gfxoutputdrv.lib
+.\libs\iec\Debug\iec.lib
+.\libs\c64exp\Debug\c64exp.lib
+.\libs\iecieee\Debug\iecieee.lib
+.\libs\ieee\Debug\ieee.lib
+.\libs\parallel\Debug\parallel.lib
+.\libs\png\Debug\png.lib
+.\libs\printerdrv\Debug\printerdrv.lib
+.\libs\resid\Debug\resid.lib
+.\libs\rs232drv\Debug\rs232drv.lib
+.\libs\serial\Debug\serial.lib
+.\libs\sid\Debug\sid.lib
+.\libs\sounddrv\Debug\sounddrv.lib
+.\libs\vicii\Debug\vicii.lib
+.\libs\raster\Debug\raster.lib
+.\libs\vdrive\Debug\vdrive.lib
+.\libs\video\Debug\video.lib
+.\libs\monitor\Debug\monitor.lib
+.\libs\c64cart\Debug\c64cart.lib
+.\libs\diskimage\Debug\diskimage.lib
+.\libs\tape\Debug\tape.lib
+.\libs\imagecontents\Debug\imagecontents.lib
+.\libs\core\Debug\core.lib
+.\libs\iecbus\Debug\iecbus.lib
+.\libs\zlib\Debug\zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP2C.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+x64.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

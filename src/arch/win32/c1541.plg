@@ -1,0 +1,334 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vdrive - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP131.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\vdrive\Debug/vdrive.pch" /YX /Fo"libs\vdrive\Debug/" /Fd"libs\vdrive\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive-bam.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive-command.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive-dir.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive-iec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive-internal.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive-rel.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdrive\vdrive.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP131.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP132.tmp" with contents
+[
+/nologo /out:"libs\vdrive\Debug\vdrive.lib" 
+".\libs\vdrive\Debug\vdrive-bam.obj"
+".\libs\vdrive\Debug\vdrive-command.obj"
+".\libs\vdrive\Debug\vdrive-dir.obj"
+".\libs\vdrive\Debug\vdrive-iec.obj"
+".\libs\vdrive\Debug\vdrive-internal.obj"
+".\libs\vdrive\Debug\vdrive-rel.obj"
+".\libs\vdrive\Debug\vdrive-snapshot.obj"
+.\libs\vdrive\Debug\vdrive.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP132.tmp"
+<h3>Output Window</h3>
+Compiling...
+vdrive-bam.c
+vdrive-command.c
+vdrive-dir.c
+vdrive-iec.c
+vdrive-internal.c
+vdrive-rel.c
+vdrive-snapshot.c
+vdrive.c
+Creating library...
+<h3>
+--------------------Configuration: diskimage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP133.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\diskimage" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\diskimage\Debug/diskimage.pch" /YX /Fo"libs\diskimage\Debug/" /Fd"libs\diskimage\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\diskimage.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\fsimage-check.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\fsimage-create.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\fsimage-gcr.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\fsimage-probe.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\fsimage.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\rawimage.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\diskimage\realimage.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP133.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP134.tmp" with contents
+[
+/nologo /out:"libs\diskimage\Debug\diskimage.lib" 
+.\libs\diskimage\Debug\diskimage.obj
+".\libs\diskimage\Debug\fsimage-check.obj"
+".\libs\diskimage\Debug\fsimage-create.obj"
+".\libs\diskimage\Debug\fsimage-gcr.obj"
+".\libs\diskimage\Debug\fsimage-probe.obj"
+.\libs\diskimage\Debug\fsimage.obj
+.\libs\diskimage\Debug\rawimage.obj
+.\libs\diskimage\Debug\realimage.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP134.tmp"
+<h3>Output Window</h3>
+Compiling...
+diskimage.c
+fsimage-check.c
+fsimage-create.c
+fsimage-gcr.c
+fsimage-probe.c
+fsimage.c
+rawimage.c
+realimage.c
+Creating library...
+<h3>
+--------------------Configuration: tape - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP135.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\tape" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\tape\Debug/tape.pch" /YX /Fo"libs\tape\Debug/" /Fd"libs\tape\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\tape\t64.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\tape\tap.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\tape\tape-internal.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\tape\tape-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\tape\tape.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\tape\tapeimage.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP135.tmp" 
+Creating command line "link.exe -lib /nologo /out:"libs\tape\Debug\tape.lib"  .\libs\tape\Debug\t64.obj .\libs\tape\Debug\tap.obj ".\libs\tape\Debug\tape-internal.obj" ".\libs\tape\Debug\tape-snapshot.obj" .\libs\tape\Debug\tape.obj .\libs\tape\Debug\tapeimage.obj "
+<h3>Output Window</h3>
+Compiling...
+t64.c
+tap.c
+tape-internal.c
+tape-snapshot.c
+tape.c
+tapeimage.c
+Creating library...
+<h3>
+--------------------Configuration: imagecontents - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP136.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\vdrive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\imagecontents\Debug/imagecontents.pch" /YX /Fo"libs\imagecontents\Debug/" /Fd"libs\imagecontents\Debug/" /FD /GZ /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\imagecontents\diskcontents-block.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\imagecontents\diskcontents-iec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\imagecontents\diskcontents.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\imagecontents\imagecontents.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\imagecontents\tapecontents.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP136.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP137.tmp" with contents
+[
+/nologo /out:"libs\imagecontents\Debug\imagecontents.lib" 
+".\libs\imagecontents\Debug\diskcontents-block.obj"
+".\libs\imagecontents\Debug\diskcontents-iec.obj"
+.\libs\imagecontents\Debug\diskcontents.obj
+.\libs\imagecontents\Debug\imagecontents.obj
+.\libs\imagecontents\Debug\tapecontents.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP137.tmp"
+<h3>Output Window</h3>
+Compiling...
+diskcontents-block.c
+diskcontents-iec.c
+diskcontents.c
+imagecontents.c
+tapecontents.c
+Creating library...
+<h3>
+--------------------Configuration: serial - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\vdrive" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\serial\Debug/serial.pch" /YX /Fo"libs\serial\Debug/" /Fd"libs\serial\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\fsdrive.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\realdevice.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial-device.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial-iec-bus.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial-iec-device.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial-iec-lib.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial-iec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial-realdevice.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial-trap.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\serial\serial.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP138.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /out:"libs\serial\Debug\serial.lib" 
+.\libs\serial\Debug\fsdrive.obj
+.\libs\serial\Debug\realdevice.obj
+".\libs\serial\Debug\serial-device.obj"
+".\libs\serial\Debug\serial-iec-bus.obj"
+".\libs\serial\Debug\serial-iec-device.obj"
+".\libs\serial\Debug\serial-iec-lib.obj"
+".\libs\serial\Debug\serial-iec.obj"
+".\libs\serial\Debug\serial-realdevice.obj"
+".\libs\serial\Debug\serial-trap.obj"
+.\libs\serial\Debug\serial.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP139.tmp"
+<h3>Output Window</h3>
+Compiling...
+fsdrive.c
+realdevice.c
+serial-device.c
+serial-iec-bus.c
+serial-iec-device.c
+serial-iec-lib.c
+serial-iec.c
+serial-realdevice.c
+serial-trap.c
+serial.c
+Creating library...
+<h3>
+--------------------Configuration: zlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13A.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\lib\zlib" /D "_DEBUG" /D "DONT_USE_UNISTD_H" /D "WIN32" /D "_WINDOWS" /D "_CRT_SECURE_NO_DEPRECATE" /Fp"libs\zlib\Debug/zlib.pch" /YX /Fo"libs\zlib\Debug/" /Fd"libs\zlib\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\adler32.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\compress.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\crc32.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\deflate.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\gzio.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\infback.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\inffast.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\inflate.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\inftrees.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\trees.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\uncompr.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13A.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13B.tmp" with contents
+[
+/nologo /out:"libs\zlib\Debug\zlib.lib" 
+.\libs\zlib\Debug\adler32.obj
+.\libs\zlib\Debug\compress.obj
+.\libs\zlib\Debug\crc32.obj
+.\libs\zlib\Debug\deflate.obj
+.\libs\zlib\Debug\gzio.obj
+.\libs\zlib\Debug\infback.obj
+.\libs\zlib\Debug\inffast.obj
+.\libs\zlib\Debug\inflate.obj
+.\libs\zlib\Debug\inftrees.obj
+.\libs\zlib\Debug\trees.obj
+.\libs\zlib\Debug\uncompr.obj
+.\libs\zlib\Debug\zutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13B.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+<h3>
+--------------------Configuration: c1541 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13C.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I "msvc" /I ".\\" /I "..\\" /I "..\..\\" /I "..\..\drive" /I "..\..\vdrive" /I "..\..\lib\zlib" /D "DONT_USE_UNISTD_H" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"libs\c1541\Debug/c1541.pch" /YX /Fo"libs\c1541\Debug/" /Fd"libs\c1541\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\c1541.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbmdos.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbmimage.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\charset.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\findpath.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gcr.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\info.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\ioutil.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\rawfile.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\util.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\zfile.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\zipcode.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13C.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib shell32.lib wsock32.lib version.lib /nologo /subsystem:console /incremental:yes /pdb:"..\..\..\data/c1541.pdb" /debug /machine:I386 /out:"..\..\..\data/c1541.exe" /pdbtype:sept 
+.\libs\c1541\Debug\c1541.obj
+.\libs\c1541\Debug\cbmdos.obj
+.\libs\c1541\Debug\cbmimage.obj
+.\libs\c1541\Debug\charset.obj
+.\libs\c1541\Debug\findpath.obj
+.\libs\c1541\Debug\gcr.obj
+.\libs\c1541\Debug\info.obj
+.\libs\c1541\Debug\ioutil.obj
+.\libs\c1541\Debug\lib.obj
+.\libs\c1541\Debug\log.obj
+.\libs\c1541\Debug\rawfile.obj
+.\libs\c1541\Debug\resources.obj
+.\libs\c1541\Debug\util.obj
+.\libs\c1541\Debug\zfile.obj
+.\libs\c1541\Debug\zipcode.obj
+.\libs\arch\Debug\arch.lib
+.\libs\base\Debug\base.lib
+.\libs\vdrive\Debug\vdrive.lib
+.\libs\diskimage\Debug\diskimage.lib
+.\libs\tape\Debug\tape.lib
+.\libs\imagecontents\Debug\imagecontents.lib
+.\libs\fileio\Debug\fileio.lib
+.\libs\serial\Debug\serial.lib
+.\libs\zlib\Debug\zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP13D.tmp"
+<h3>Output Window</h3>
+Compiling...
+c1541.c
+cbmdos.c
+cbmimage.c
+charset.c
+findpath.c
+gcr.c
+info.c
+ioutil.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\ioutil.c(149) : warning C4142: benign redefinition of type
+lib.c
+log.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(272) : warning C4716: 'log_message' : must return a value
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(289) : warning C4716: 'log_warning' : must return a value
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(306) : warning C4716: 'log_error' : must return a value
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(323) : warning C4716: 'log_debug' : must return a value
+rawfile.c
+resources.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resources.c(1202) : warning C4013: 'fendoffile' undefined; assuming extern returning int
+util.c
+zfile.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\zfile.c(429) : warning C4013: 'fendoffile' undefined; assuming extern returning int
+zipcode.c
+Linking...
+resources.obj : error LNK2001: unresolved external symbol _fendoffile
+zfile.obj : error LNK2001: unresolved external symbol _fendoffile
+..\..\..\data/c1541.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+c1541.exe - 3 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: core - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14A.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\core" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\core\Debug/core.pch" /YX /Fo"libs\core\Debug/" /Fd"libs\core\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\core\ciacore.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\core\ciatimer.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\core\riotcore.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\core\tpicore.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\core\viacore.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14A.tmp" 
+Creating command line "link.exe -lib /nologo /out:"libs\core\Debug\core.lib"  .\libs\core\Debug\ciacore.obj .\libs\core\Debug\ciatimer.obj .\libs\core\Debug\riotcore.obj .\libs\core\Debug\tpicore.obj .\libs\core\Debug\viacore.obj "
+<h3>Output Window</h3>
+Compiling...
+ciacore.c
+ciatimer.c
+riotcore.c
+tpicore.c
+viacore.c
+Creating library...
+
+
+
+<h3>Results</h3>
+core.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

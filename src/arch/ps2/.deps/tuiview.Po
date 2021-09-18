@@ -1,0 +1,44 @@
+tuiview.o tuiview.o: tuiview.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/include/sys/param.h \
+  /usr/local/ps2dev/ee/ee/include/stdio.h \
+  /usr/local/ps2dev/ee/ee/include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/include/sys/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/ee/include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/include/sys/_types.h \
+  /usr/local/ps2dev/ee/ee/include/string.h tui.h tui_backend.h types.h \
+  ../../../src/util.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/param.h:
+
+/usr/local/ps2dev/ee/ee/include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/include/sys/_types.h:
+
+/usr/local/ps2dev/ee/ee/include/string.h:
+
+tui.h:
+
+tui_backend.h:
+
+types.h:
+
+../../../src/util.h:

@@ -1,0 +1,5 @@
+wave8580_PST.o wave8580_PST.o: wave8580_PST.cc wave.h siddefs.h
+
+wave.h:
+
+siddefs.h:

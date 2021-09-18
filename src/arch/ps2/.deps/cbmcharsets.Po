@@ -1,0 +1,16 @@
+cbmcharsets.o cbmcharsets.o: cbmcharsets.c types.h ../../../src/vice.h \
+  ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/param.h cbmcharsets.h
+
+types.h:
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/param.h:
+
+cbmcharsets.h:

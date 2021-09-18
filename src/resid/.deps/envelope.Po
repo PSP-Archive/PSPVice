@@ -1,0 +1,5 @@
+envelope.o envelope.o: envelope.cc envelope.h siddefs.h
+
+envelope.h:
+
+siddefs.h:

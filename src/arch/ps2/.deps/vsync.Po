@@ -1,0 +1,100 @@
+vsync.o vsync.o: vsync.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/param.h ../../../src/clkguard.h \
+  types.h ../../../src/cmdline.h ../../../src/drive/drive.h \
+  /usr/local/ps2dev/ps2lib/ee/include/libpad.h ../../../src/machine.h \
+  ../../../src/maincpu.h ../../../src/resources.h \
+  /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h videoarch.h \
+  ../../../src/palette.h ../../../src/video.h ../../../src/viewport.h \
+  ../../../src/sound.h ui.h ../../../src/uiapi.h ../../../src/vsync.h \
+  gs.h defines.h regs.h g2.h vkeyboard.h bitmap.h \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h kbd.h joy.h menu.h \
+  fileexp.h infowin.h cdvd_vsync.h pad.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/param.h:
+
+../../../src/clkguard.h:
+
+types.h:
+
+../../../src/cmdline.h:
+
+../../../src/drive/drive.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/libpad.h:
+
+../../../src/machine.h:
+
+../../../src/maincpu.h:
+
+../../../src/resources.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+videoarch.h:
+
+../../../src/palette.h:
+
+../../../src/video.h:
+
+../../../src/viewport.h:
+
+../../../src/sound.h:
+
+ui.h:
+
+../../../src/uiapi.h:
+
+../../../src/vsync.h:
+
+gs.h:
+
+defines.h:
+
+regs.h:
+
+g2.h:
+
+vkeyboard.h:
+
+bitmap.h:
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+kbd.h:
+
+joy.h:
+
+menu.h:
+
+fileexp.h:
+
+infowin.h:
+
+cdvd_vsync.h:
+
+pad.h:

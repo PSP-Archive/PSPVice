@@ -1,0 +1,14 @@
+libkbd.o libkbd.o: libkbd.c \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h \
+  /usr/local/ps2dev/ps2lib/ee/include/eefileio.h \
+  /usr/local/ps2dev/ps2lib/common/include/io_common.h libkbd.h ps2kbd_.h
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/eefileio.h:
+
+/usr/local/ps2dev/ps2lib/common/include/io_common.h:
+
+libkbd.h:
+
+ps2kbd_.h:

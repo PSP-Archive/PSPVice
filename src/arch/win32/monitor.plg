@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: monitor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP157.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\vdrive" /I "..\..\monitor" /I "..\..\drive" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /Fp"libs\monitor\Debug/monitor.pch" /YX /Fo"libs\monitor\Debug/" /Fd"libs\monitor\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\asm6502.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\asmz80.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_assemble6502.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_assemblez80.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_breakpoint.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_command.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_disassemble.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_drive.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_file.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_lex.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_memory.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_parse.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_register6502.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_registerz80.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_ui.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\mon_util.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\monitor\monitor.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP157.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP158.tmp" with contents
+[
+/nologo /out:"libs\monitor\Debug\monitor.lib" 
+.\libs\monitor\Debug\asm6502.obj
+.\libs\monitor\Debug\asmz80.obj
+.\libs\monitor\Debug\mon_assemble6502.obj
+.\libs\monitor\Debug\mon_assemblez80.obj
+.\libs\monitor\Debug\mon_breakpoint.obj
+.\libs\monitor\Debug\mon_command.obj
+.\libs\monitor\Debug\mon_disassemble.obj
+.\libs\monitor\Debug\mon_drive.obj
+.\libs\monitor\Debug\mon_file.obj
+.\libs\monitor\Debug\mon_lex.obj
+.\libs\monitor\Debug\mon_memory.obj
+.\libs\monitor\Debug\mon_parse.obj
+.\libs\monitor\Debug\mon_register6502.obj
+.\libs\monitor\Debug\mon_registerz80.obj
+.\libs\monitor\Debug\mon_ui.obj
+.\libs\monitor\Debug\mon_util.obj
+.\libs\monitor\Debug\monitor.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP158.tmp"
+<h3>Output Window</h3>
+Compiling...
+asm6502.c
+asmz80.c
+mon_assemble6502.c
+mon_assemblez80.c
+mon_breakpoint.c
+mon_command.c
+mon_disassemble.c
+mon_drive.c
+mon_file.c
+mon_lex.c
+mon_memory.c
+mon_parse.c
+mon_register6502.c
+mon_registerz80.c
+mon_ui.c
+mon_util.c
+monitor.c
+Creating library...
+
+
+
+<h3>Results</h3>
+monitor.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

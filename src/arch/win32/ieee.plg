@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ieee - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP155.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\ieee\Debug/ieee.pch" /YX /Fo"libs\ieee\Debug/" /Fd"libs\ieee\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\fdc.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\ieee-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\ieee-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\ieee.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\ieeerom.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\memieee.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\riot1d.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\riot2d.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\ieee\via1d2031.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP155.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP156.tmp" with contents
+[
+/nologo /out:"libs\ieee\Debug\ieee.lib" 
+.\libs\ieee\Debug\fdc.obj
+".\libs\ieee\Debug\ieee-cmdline-options.obj"
+".\libs\ieee\Debug\ieee-resources.obj"
+.\libs\ieee\Debug\ieee.obj
+.\libs\ieee\Debug\ieeerom.obj
+.\libs\ieee\Debug\memieee.obj
+.\libs\ieee\Debug\riot1d.obj
+.\libs\ieee\Debug\riot2d.obj
+.\libs\ieee\Debug\via1d2031.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP156.tmp"
+<h3>Output Window</h3>
+Compiling...
+fdc.c
+ieee-cmdline-options.c
+ieee-resources.c
+ieee.c
+ieeerom.c
+memieee.c
+riot1d.c
+riot2d.c
+via1d2031.c
+Creating library...
+
+
+
+<h3>Results</h3>
+ieee.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,119 @@
+archdep.o archdep.o: archdep.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/param.h \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h \
+  /usr/local/ps2dev/ps2lib/ee/include/eefileio.h \
+  /usr/local/ps2dev/ps2lib/common/include/io_common.h \
+  /usr/local/ps2dev/ps2lib/ee/include/malloc.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ps2lib/ee/include/kernel.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifdma.h \
+  /usr/local/ps2dev/ps2lib/ee/include/compat.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifcmd.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifrpc.h \
+  /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/signal.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/signal.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/features.h \
+  /usr/local/ps2dev/ee/ee/sys-include/string.h archdep.h \
+  ../../../src/archapi.h /usr/local/ps2dev/ee/ee/sys-include/fcntl.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/fcntl.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/types.h \
+  /usr/local/ps2dev/ee/ee/sys-include/machine/types.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/stat.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/time.h \
+  /usr/local/ps2dev/ee/ee/sys-include/machine/time.h ../../../src/lib.h \
+  ../../../src/log.h ../../../src/machine.h types.h ../../../src/util.h \
+  ../../../src/video.h ../../../src/viewport.h ps2main.h support.h \
+  cdvd_vsync.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/param.h:
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/eefileio.h:
+
+/usr/local/ps2dev/ps2lib/common/include/io_common.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/malloc.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/kernel.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifdma.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/compat.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifcmd.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifrpc.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/signal.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/signal.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/features.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/string.h:
+
+archdep.h:
+
+../../../src/archapi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/fcntl.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/fcntl.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/types.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/machine/types.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/stat.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/time.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/machine/time.h:
+
+../../../src/lib.h:
+
+../../../src/log.h:
+
+../../../src/machine.h:
+
+types.h:
+
+../../../src/util.h:
+
+../../../src/video.h:
+
+../../../src/viewport.h:
+
+ps2main.h:
+
+support.h:
+
+cdvd_vsync.h:

@@ -1,0 +1,24 @@
+uicmdline.o uicmdline.o: uicmdline.c \
+  /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h ../../../src/cmdline.h
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+../../../src/cmdline.h:

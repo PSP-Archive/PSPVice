@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: plus4exp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP161.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\plus4exp\Debug/plus4exp.pch" /YX /Fo"libs\plus4exp\Debug/" /Fd"libs\plus4exp\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\plus4exp\plus4exp-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\plus4exp\plus4exp-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\plus4exp\iec-plus4exp.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP161.tmp" 
+Creating command line "link.exe -lib /nologo /out:"libs\plus4exp\Debug\plus4exp.lib"  ".\libs\plus4exp\Debug\plus4exp-cmdline-options.obj" ".\libs\plus4exp\Debug\plus4exp-resources.obj" ".\libs\plus4exp\Debug\iec-plus4exp.obj" .\libs\base\Debug\base.lib "
+<h3>Output Window</h3>
+Compiling...
+plus4exp-cmdline-options.c
+plus4exp-resources.c
+iec-plus4exp.c
+Creating library...
+
+
+
+<h3>Results</h3>
+plus4exp.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

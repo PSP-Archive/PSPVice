@@ -1,0 +1,39 @@
+vsidui.o vsidui.o: vsidui.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/param.h ../../../src/log.h \
+  /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h ../../../src/machine.h \
+  types.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/param.h:
+
+../../../src/log.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+../../../src/machine.h:
+
+types.h:

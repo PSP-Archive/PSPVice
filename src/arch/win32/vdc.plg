@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vdc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP182.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\raster" /I "..\..\vicii" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\vdc\Debug/vdc.pch" /YX /Fo"libs\vdc\Debug/" /Fd"libs\vdc\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdc\vdc-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdc\vdc-draw.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdc\vdc-mem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdc\vdc-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdc\vdc-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vdc\vdc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP182.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP183.tmp" with contents
+[
+/nologo /out:"libs\vdc\Debug\vdc.lib" 
+".\libs\vdc\Debug\vdc-cmdline-options.obj"
+".\libs\vdc\Debug\vdc-draw.obj"
+".\libs\vdc\Debug\vdc-mem.obj"
+".\libs\vdc\Debug\vdc-resources.obj"
+".\libs\vdc\Debug\vdc-snapshot.obj"
+.\libs\vdc\Debug\vdc.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP183.tmp"
+<h3>Output Window</h3>
+Compiling...
+vdc-cmdline-options.c
+vdc-draw.c
+vdc-mem.c
+vdc-resources.c
+vdc-snapshot.c
+vdc.c
+Creating library...
+
+
+
+<h3>Results</h3>
+vdc.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,6 @@
+gr_button1.o gr_button1.o: gr_button1.c \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h bitmap.h
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+bitmap.h:

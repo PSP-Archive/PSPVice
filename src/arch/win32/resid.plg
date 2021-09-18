@@ -1,0 +1,205 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: resid - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP168.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave8580_PST.cc ..\\..\\resid\\wave8580_PST.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP168.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP169.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave8580_PS_.cc ..\\..\\resid\\wave8580_PS_.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP169.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16A.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave8580_P_T.cc ..\\..\\resid\\wave8580_P_T.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16A.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16B.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave8580__ST.cc ..\\..\\resid\\wave8580__ST.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16B.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16C.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave6581_PST.cc ..\\..\\resid\\wave6581_PST.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16C.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16D.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave6581_PS_.cc ..\\..\\resid\\wave6581_PS_.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16D.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16E.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave6581_P_T.cc ..\\..\\resid\\wave6581_P_T.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16E.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16F.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave6581__ST.cc ..\\..\\resid\\wave6581__ST.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP16F.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP170.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\wave.cc ..\\..\\resid\\wave.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP170.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP171.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\voice.cc ..\\..\\resid\\voice.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP171.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP172.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\version.cc ..\\..\\resid\\version.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP172.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP173.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\sid.cc ..\\..\\resid\\sid.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP173.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP174.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\pot.cc ..\\..\\resid\\pot.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP174.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP175.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\filter.cc ..\\..\\resid\\filter.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP175.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP176.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\extfilt.cc ..\\..\\resid\\extfilt.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP176.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP177.bat" with contents
+[
+@echo off
+copy ..\\..\\resid\\envelope.cc ..\\..\\resid\\envelope.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP177.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP178.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D PACKAGE=\"resid\" /D VERSION=\"0.7\" /D SIZEOF_INT=4 /Fp"libs\resid\Debug/resid.pch" /YX /Fo"libs\resid\Debug/" /Fd"libs\resid\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\envelope.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\extfilt.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\filter.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\pot.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\sid.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\version.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\voice.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave6581__ST.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave6581_P_T.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave6581_PS_.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave6581_PST.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave8580__ST.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave8580_P_T.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave8580_PS_.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resid\wave8580_PST.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP178.tmp" 
+Performing Custom Build Step on ..\..\resid\wave8580_PST.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave8580_PS_.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave8580_P_T.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave8580__ST.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave6581_PST.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave6581_PS_.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave6581_P_T.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave6581__ST.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\wave.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\voice.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\version.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\sid.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\pot.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\filter.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\extfilt.cc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\resid\envelope.cc
+        1 fichier(s) copi‚(s).
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP179.tmp" with contents
+[
+/nologo /out:"libs\resid\Debug\resid.lib" 
+.\libs\resid\Debug\envelope.obj
+.\libs\resid\Debug\extfilt.obj
+.\libs\resid\Debug\filter.obj
+.\libs\resid\Debug\pot.obj
+.\libs\resid\Debug\sid.obj
+.\libs\resid\Debug\version.obj
+.\libs\resid\Debug\voice.obj
+.\libs\resid\Debug\wave.obj
+.\libs\resid\Debug\wave6581__ST.obj
+.\libs\resid\Debug\wave6581_P_T.obj
+.\libs\resid\Debug\wave6581_PS_.obj
+.\libs\resid\Debug\wave6581_PST.obj
+.\libs\resid\Debug\wave8580__ST.obj
+.\libs\resid\Debug\wave8580_P_T.obj
+.\libs\resid\Debug\wave8580_PS_.obj
+.\libs\resid\Debug\wave8580_PST.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP179.tmp"
+<h3>Output Window</h3>
+Compiling...
+envelope.cpp
+extfilt.cpp
+filter.cpp
+pot.cpp
+sid.cpp
+version.cpp
+voice.cpp
+wave.cpp
+wave6581__ST.cpp
+wave6581_P_T.cpp
+wave6581_PS_.cpp
+wave6581_PST.cpp
+wave8580__ST.cpp
+wave8580_P_T.cpp
+wave8580_PS_.cpp
+wave8580_PST.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+resid.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

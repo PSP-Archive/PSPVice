@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: petcat - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15C.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /I "..\..\vdrive" /I "..\..\lib\zlib" /D "DONT_USE_UNISTD_H" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"libs\petcat\Debug/petcat.pch" /YX /Fo"libs\petcat\Debug/" /Fd"libs\petcat\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\charset.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\findpath.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\ioutil.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\petcat.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\rawfile.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\util.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\zfile.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\zipcode.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15C.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib wsock32.lib version.lib /nologo /subsystem:console /incremental:yes /pdb:"..\..\..\data/petcat.pdb" /debug /machine:I386 /out:"..\..\..\data/petcat.exe" /pdbtype:sept 
+.\libs\petcat\Debug\charset.obj
+.\libs\petcat\Debug\findpath.obj
+.\libs\petcat\Debug\ioutil.obj
+.\libs\petcat\Debug\lib.obj
+.\libs\petcat\Debug\log.obj
+.\libs\petcat\Debug\petcat.obj
+.\libs\petcat\Debug\rawfile.obj
+.\libs\petcat\Debug\resources.obj
+.\libs\petcat\Debug\util.obj
+.\libs\petcat\Debug\zfile.obj
+.\libs\petcat\Debug\zipcode.obj
+.\libs\arch\Debug\arch.lib
+.\libs\base\Debug\base.lib
+.\libs\fileio\Debug\fileio.lib
+.\libs\zlib\Debug\zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP15D.tmp"
+<h3>Output Window</h3>
+Compiling...
+charset.c
+findpath.c
+ioutil.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\ioutil.c(149) : warning C4142: benign redefinition of type
+lib.c
+log.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(272) : warning C4716: 'log_message' : must return a value
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(289) : warning C4716: 'log_warning' : must return a value
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(306) : warning C4716: 'log_error' : must return a value
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\log.c(323) : warning C4716: 'log_debug' : must return a value
+petcat.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\petcat.c(1625) : warning C4013: 'fendoffile' undefined; assuming extern returning int
+rawfile.c
+resources.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\resources.c(1202) : warning C4013: 'fendoffile' undefined; assuming extern returning int
+util.c
+zfile.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\zfile.c(429) : warning C4013: 'fendoffile' undefined; assuming extern returning int
+zipcode.c
+Linking...
+petcat.obj : error LNK2001: unresolved external symbol _fendoffile
+resources.obj : error LNK2001: unresolved external symbol _fendoffile
+zfile.obj : error LNK2001: unresolved external symbol _fendoffile
+..\..\..\data/petcat.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+petcat.exe - 4 error(s), 8 warning(s)
+</pre>
+</body>
+</html>

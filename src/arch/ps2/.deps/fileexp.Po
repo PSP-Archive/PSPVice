@@ -1,0 +1,66 @@
+fileexp.o fileexp.o: fileexp.c \
+  /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h \
+  /usr/local/ps2dev/ps2lib/ee/include/eefileio.h \
+  /usr/local/ps2dev/ps2lib/common/include/io_common.h \
+  /usr/local/ps2dev/ee/ee/sys-include/string.h \
+  /usr/local/ps2dev/libcdvd/ee/cdvd_rpc.h \
+  /usr/local/ps2dev/libcdvd/common/cdvd.h gs.h defines.h regs.h g2.h \
+  osdmsg.h bitmap.h /usr/local/ps2dev/ps2lib/ee/include/libpad.h pad.h \
+  menu.h infowin.h support.h cdvd_vsync.h
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/eefileio.h:
+
+/usr/local/ps2dev/ps2lib/common/include/io_common.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/string.h:
+
+/usr/local/ps2dev/libcdvd/ee/cdvd_rpc.h:
+
+/usr/local/ps2dev/libcdvd/common/cdvd.h:
+
+gs.h:
+
+defines.h:
+
+regs.h:
+
+g2.h:
+
+osdmsg.h:
+
+bitmap.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/libpad.h:
+
+pad.h:
+
+menu.h:
+
+infowin.h:
+
+support.h:
+
+cdvd_vsync.h:

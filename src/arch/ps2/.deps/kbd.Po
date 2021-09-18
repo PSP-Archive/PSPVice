@@ -1,0 +1,93 @@
+kbd.o kbd.o: kbd.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/param.h \
+  /usr/local/ps2dev/ee/ee/sys-include/ctype.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/ee/sys-include/stdlib.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h \
+  /usr/local/ps2dev/ee/ee/sys-include/alloca.h \
+  /usr/local/ps2dev/ee/ee/sys-include/string.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/time.h \
+  /usr/local/ps2dev/ee/ee/sys-include/machine/time.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/types.h \
+  /usr/local/ps2dev/ee/ee/sys-include/machine/types.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/features.h ps2kbd.h \
+  ../../../src/cmdline.h ../../../src/datasette.h types.h \
+  ../../../src/fliplist.h joy.h kbd.h ../../../src/keyboard.h \
+  ../../../src/log.h /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  ../../../src/machine.h ../../../src/mem.h ../../../src/resources.h ui.h \
+  ../../../src/uiapi.h ../../../src/vsync.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/param.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/ctype.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdlib.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/alloca.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/string.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/time.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/machine/time.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/types.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/machine/types.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/features.h:
+
+ps2kbd.h:
+
+../../../src/cmdline.h:
+
+../../../src/datasette.h:
+
+types.h:
+
+../../../src/fliplist.h:
+
+joy.h:
+
+kbd.h:
+
+../../../src/keyboard.h:
+
+../../../src/log.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+../../../src/machine.h:
+
+../../../src/mem.h:
+
+../../../src/resources.h:
+
+ui.h:
+
+../../../src/uiapi.h:
+
+../../../src/vsync.h:

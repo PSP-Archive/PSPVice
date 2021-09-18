@@ -1,0 +1,39 @@
+sjpcm_rpc.o sjpcm_rpc.o: sjpcm_rpc.c \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h \
+  /usr/local/ps2dev/ps2lib/ee/include/kernel.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifdma.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifrpc.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifcmd.h \
+  /usr/local/ps2dev/ee/ee/sys-include/string.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h sjpcm.h
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/kernel.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifdma.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifrpc.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifcmd.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/string.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+sjpcm.h:

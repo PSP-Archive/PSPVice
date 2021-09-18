@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gfxoutputdrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP186.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\lib\lpng" /I "..\..\lib\zlib" /I "..\..\lib\libffmpeg" /D "DONT_USE_UNISTD_H" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\gfxoutputdrv\Debug/gfxoutputdrv.pch" /YX /Fo"libs\gfxoutputdrv\Debug/" /Fd"libs\gfxoutputdrv\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP186.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP187.tmp" with contents
+[
+/nologo /out:"libs\gfxoutputdrv\Debug\gfxoutputdrv.lib" 
+.\libs\gfxoutputdrv\Debug\bmpdrv.obj
+.\libs\gfxoutputdrv\Debug\ffmpegdrv.obj
+.\libs\gfxoutputdrv\Debug\gfxoutput.obj
+.\libs\gfxoutputdrv\Debug\iffdrv.obj
+.\libs\gfxoutputdrv\Debug\pcxdrv.obj
+.\libs\gfxoutputdrv\Debug\pngdrv.obj
+.\libs\gfxoutputdrv\Debug\ppmdrv.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP187.tmp"
+<h3>Output Window</h3>
+Compiling...
+ffmpegdrv.c
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(226) : error C2115: '=' : incompatible types
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(249) : error C2232: '->codec_id' : left operand has 'struct' type, use '.'
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(276) : error C2115: 'function' : incompatible types
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(276) : warning C4024: 'ffmpeglib' : different types for formal and actual parameter 1
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(314) : error C2115: '=' : incompatible types
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(349) : error C2115: '=' : incompatible types
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(433) : error C2115: '=' : incompatible types
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(486) : error C2115: 'function' : incompatible types
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(486) : warning C4024: 'ffmpeglib' : different types for formal and actual parameter 1
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(523) : error C2115: '=' : incompatible types
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(533) : error C2039: 'time_base' : is not a member of 'AVCodecContext'
+        D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpeg/avcodec.h(597) : see declaration of 'AVCodecContext'
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(534) : error C2039: 'time_base' : is not a member of 'AVCodecContext'
+        D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpeg/avcodec.h(597) : see declaration of 'AVCodecContext'
+D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\gfxoutputdrv\ffmpegdrv.c(718) : error C2115: '=' : incompatible types
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+vice.exe - 11 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

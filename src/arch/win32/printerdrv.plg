@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: printerdrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP164.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /Fp"libs\printerdrv\Debug/printerdrv.pch" /YX /Fo"libs\printerdrv\Debug/" /Fd"libs\printerdrv\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\driver-select.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\drv-ascii.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\drv-mps803.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\drv-nl10.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\interface-serial.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\interface-userport.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\output-graphics.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\output-select.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\output-text.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\printer-serial.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\printer-userport.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\printerdrv\printer.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP164.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP165.tmp" with contents
+[
+/nologo /out:"libs\printerdrv\Debug\printerdrv.lib" 
+".\libs\printerdrv\Debug\driver-select.obj"
+".\libs\printerdrv\Debug\drv-ascii.obj"
+".\libs\printerdrv\Debug\drv-mps803.obj"
+".\libs\printerdrv\Debug\drv-nl10.obj"
+".\libs\printerdrv\Debug\interface-serial.obj"
+".\libs\printerdrv\Debug\interface-userport.obj"
+".\libs\printerdrv\Debug\output-graphics.obj"
+".\libs\printerdrv\Debug\output-select.obj"
+".\libs\printerdrv\Debug\output-text.obj"
+".\libs\printerdrv\Debug\printer-serial.obj"
+".\libs\printerdrv\Debug\printer-userport.obj"
+.\libs\printerdrv\Debug\printer.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP165.tmp"
+<h3>Output Window</h3>
+Compiling...
+driver-select.c
+drv-ascii.c
+drv-mps803.c
+drv-nl10.c
+interface-serial.c
+interface-userport.c
+output-graphics.c
+output-select.c
+output-text.c
+printer-serial.c
+printer-userport.c
+printer.c
+Creating library...
+
+
+
+<h3>Results</h3>
+printerdrv.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

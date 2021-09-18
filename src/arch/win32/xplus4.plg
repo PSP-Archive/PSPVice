@@ -1,0 +1,232 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fileio - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP93.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\vdrive" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\fileio\Debug/fileio.pch" /YX /Fo"libs\fileio\Debug/" /Fd"libs\fileio\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\fileio\p00.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP93.tmp" 
+Creating command line "link.exe -lib /nologo /out:"libs\fileio\Debug\fileio.lib"  .\libs\fileio\Debug\cbmfile.obj .\libs\fileio\Debug\fileio.obj .\libs\fileio\Debug\p00.obj "
+<h3>Output Window</h3>
+Compiling...
+p00.c
+Creating library...
+<h3>
+--------------------Configuration: fsdevice - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP94.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\fsdevice" /I "..\..\vdrive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\fsdevice\Debug/fsdevice.pch" /YX /Fo"libs\fsdevice\Debug/" /Fd"libs\fsdevice\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\fsdevice\fsdevice-open.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP94.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP95.tmp" with contents
+[
+/nologo /out:"libs\fsdevice\Debug\fsdevice.lib" 
+".\libs\fsdevice\Debug\fsdevice-close.obj"
+".\libs\fsdevice\Debug\fsdevice-cmdline-options.obj"
+".\libs\fsdevice\Debug\fsdevice-flush.obj"
+".\libs\fsdevice\Debug\fsdevice-open.obj"
+".\libs\fsdevice\Debug\fsdevice-read.obj"
+".\libs\fsdevice\Debug\fsdevice-resources.obj"
+".\libs\fsdevice\Debug\fsdevice-write.obj"
+.\libs\fsdevice\Debug\fsdevice.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP95.tmp"
+<h3>Output Window</h3>
+Compiling...
+fsdevice-open.c
+Creating library...
+<h3>
+--------------------Configuration: plus4exp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe -lib /nologo /out:"libs\plus4exp\Debug\plus4exp.lib"  ".\libs\plus4exp\Debug\plus4exp-cmdline-options.obj" ".\libs\plus4exp\Debug\plus4exp-resources.obj" ".\libs\plus4exp\Debug\iec-plus4exp.obj" .\libs\base\Debug\base.lib "
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: plus4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP96.tmp" with contents
+[
+/nologo /out:"libs\plus4\Debug\plus4.lib" 
+".\libs\plus4\Debug\plus4-cmdline-options.obj"
+".\libs\plus4\Debug\plus4-resources.obj"
+".\libs\plus4\Debug\plus4-snapshot.obj"
+.\libs\plus4\Debug\plus4.obj
+.\libs\plus4\Debug\plus4acia.obj
+.\libs\plus4\Debug\plus4bus.obj
+.\libs\plus4\Debug\plus4cart.obj
+.\libs\plus4\Debug\plus4cpu.obj
+.\libs\plus4\Debug\plus4datasette.obj
+.\libs\plus4\Debug\plus4drive.obj
+.\libs\plus4\Debug\plus4iec.obj
+.\libs\plus4\Debug\plus4mem.obj
+.\libs\plus4\Debug\plus4memcsory256k.obj
+.\libs\plus4\Debug\plus4memhannes256k.obj
+.\libs\plus4\Debug\plus4memlimit.obj
+.\libs\plus4\Debug\plus4memrom.obj
+.\libs\plus4\Debug\plus4memsnapshot.obj
+.\libs\plus4\Debug\plus4parallel.obj
+.\libs\plus4\Debug\plus4pio1.obj
+.\libs\plus4\Debug\plus4pio2.obj
+.\libs\plus4\Debug\plus4printer.obj
+.\libs\plus4\Debug\plus4rom.obj
+.\libs\plus4\Debug\plus4romset.obj
+.\libs\plus4\Debug\plus4tcbm.obj
+.\libs\plus4\Debug\plus4video.obj
+".\libs\plus4\Debug\ted-badline.obj"
+".\libs\plus4\Debug\ted-cmdline-options.obj"
+".\libs\plus4\Debug\ted-color.obj"
+".\libs\plus4\Debug\ted-draw.obj"
+".\libs\plus4\Debug\ted-fetch.obj"
+".\libs\plus4\Debug\ted-irq.obj"
+".\libs\plus4\Debug\ted-mem.obj"
+".\libs\plus4\Debug\ted-resources.obj"
+".\libs\plus4\Debug\ted-snapshot.obj"
+".\libs\plus4\Debug\ted-sound.obj"
+".\libs\plus4\Debug\ted-timer.obj"
+".\libs\plus4\Debug\ted-timing.obj"
+.\libs\plus4\Debug\ted.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP96.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: tcbm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP97.tmp" with contents
+[
+/nologo /out:"libs\tcbm\Debug\tcbm.lib" 
+.\libs\tcbm\Debug\glue1551.obj
+.\libs\tcbm\Debug\mem1551.obj
+".\libs\tcbm\Debug\tcbm-cmdline-options.obj"
+".\libs\tcbm\Debug\tcbm-resources.obj"
+.\libs\tcbm\Debug\tcbm.obj
+.\libs\tcbm\Debug\tcbmrom.obj
+.\libs\tcbm\Debug\tpid.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP97.tmp"
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: video - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP98.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\c64" /I "..\..\raster" /I "..\..\video" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\video\Debug/video.pch" /YX /Fo"libs\video\Debug/" /Fd"libs\video\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\video\render1x1.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP98.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP99.tmp" with contents
+[
+/nologo /out:"libs\video\Debug\video.lib" 
+.\libs\video\Debug\render1x1.obj
+.\libs\video\Debug\render1x1pal.obj
+.\libs\video\Debug\render1x2.obj
+.\libs\video\Debug\render2x2.obj
+.\libs\video\Debug\render2x2pal.obj
+.\libs\video\Debug\renderscale2x.obj
+.\libs\video\Debug\renderyuv.obj
+".\libs\video\Debug\video-canvas.obj"
+".\libs\video\Debug\video-cmdline-options.obj"
+".\libs\video\Debug\video-color.obj"
+".\libs\video\Debug\video-render-1x2.obj"
+".\libs\video\Debug\video-render-2x2.obj"
+".\libs\video\Debug\video-render-pal.obj"
+".\libs\video\Debug\video-render.obj"
+".\libs\video\Debug\video-resources-pal.obj"
+".\libs\video\Debug\video-resources.obj"
+".\libs\video\Debug\video-viewport.obj"
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP99.tmp"
+<h3>Output Window</h3>
+Compiling...
+render1x1.c
+Creating library...
+<h3>
+--------------------Configuration: xplus4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP9A.bat" with contents
+[
+@echo off
+copy /b resplus4.rc + res.rc + resacia.rc + resdriveplus4.rc + ressidcart.rc resplus4cat.rc /b
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP9A.bat"
+Creating command line "rc.exe /l 0x409 /i ".\MSVC" /i ".\\" /i "..\..\\" /d "_DEBUG" "D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\arch\win32\resplus4cat.rc"" 
+Performing Custom Build Step on .\resplus4.rc
+resplus4.rc
+res.rc
+resacia.rc
+resdriveplus4.rc
+ressidcart.rc
+        1 fichier(s) copi‚(s).
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP9B.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /I "..\..\vdrive" /I "..\..\monitor" /I "..\..\sid" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\xplus4\Debug/xplus4.pch" /YX /Fo"libs\xplus4\Debug/" /Fd"libs\xplus4\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\main.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP9B.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP9C.tmp" with contents
+[
+dxguid.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib comctl32.lib winmm.lib ddraw.lib dsound.lib dinput.lib wsock32.lib version.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\..\..\data/xplus4.pdb" /debug /machine:I386 /out:"..\..\..\data/xplus4.exe" /pdbtype:sept 
+.\libs\xplus4\Debug\main.obj
+.\resplus4cat.res
+.\libs\arch\Debug\arch.lib
+.\libs\base\Debug\base.lib
+.\libs\drive\Debug\drive.lib
+.\libs\fileio\Debug\fileio.lib
+.\libs\fsdevice\Debug\fsdevice.lib
+.\libs\gfxoutputdrv\Debug\gfxoutputdrv.lib
+.\libs\iec\Debug\iec.lib
+.\libs\plus4exp\Debug\plus4exp.lib
+.\libs\iecieee\Debug\iecieee.lib
+.\libs\plus4\Debug\plus4.lib
+.\libs\png\Debug\png.lib
+.\libs\printerdrv\Debug\printerdrv.lib
+.\libs\resid\Debug\resid.lib
+.\libs\sid\Debug\sid.lib
+.\libs\sounddrv\Debug\sounddrv.lib
+.\libs\raster\Debug\raster.lib
+.\libs\rs232drv\Debug\rs232drv.lib
+.\libs\serial\Debug\serial.lib
+.\libs\tcbm\Debug\tcbm.lib
+.\libs\vdrive\Debug\vdrive.lib
+.\libs\video\Debug\video.lib
+.\libs\monitor\Debug\monitor.lib
+.\libs\diskimage\Debug\diskimage.lib
+.\libs\tape\Debug\tape.lib
+.\libs\imagecontents\Debug\imagecontents.lib
+.\libs\core\Debug\core.lib
+.\libs\iecbus\Debug\iecbus.lib
+.\libs\zlib\Debug\zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP9C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.c
+Linking...
+
+
+
+<h3>Results</h3>
+xplus4.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

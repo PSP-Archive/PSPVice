@@ -1,0 +1,78 @@
+Modif on Vice code ( list done on Vice1.18 )
+--------------
+
+6 files to change.
+
+ioutil.c
+    function recoded for PSP
+
+log.c
+    function recoded for PSP
+
+sound
+ Added :
+ #ifdef PSP
+     sound_init_psp_device();
+ #endif
+
+vsync
+ Added :
+    #ifdef PSP
+    extern int vsyncarch_do_vsync(struct video_canvas_s* c, int been_skipped);
+      vsyncarch_do_vsync(c, 0);	
+    #endif
+
+drive/tcbm/ tpid
+ Added cast
+    ctxptr->tpid = (tpi_context_t*) lib_malloc(sizeof(tpi_context_t));
+
+video/ render1x1
+    function recoded for PSP
+
+beware of "include "vicii.h", should be "../vicii.h"
+
+-------------
+foef problems (solved by adding a define into CommunHeader )
+
+fliplist
+
+    while (!feof(fp)) {
+replaced by
+    while (!fendoffile(fp)) {
+
+keyboard
+
+    } while (!feof(fp));
+replaced by
+    } while (!fendoffile(fp)); // PSP
+
+monitor/monitor
+    fendoffile (x1)
+
+petcat
+    fendoffile (x2)
+
+ressources
+    fendoffile (x1)
+
+romset
+    fendoffile (x2)
+
+zfile
+    fendoffile (x1)
+
+C64/psid
+    fendoffile (x1)
+
+
+
+
+
+
+
+To compile PC version
+---------------------
+
+Convert the .DSP file to dos filr format. With unix2dos *.dsp (and dsw)
+Or te files will not be recognised by Visual C++ 6
+

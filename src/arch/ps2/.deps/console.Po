@@ -1,0 +1,87 @@
+console.o console.o: console.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/param.h \
+  /usr/local/ps2dev/ee/ee/sys-include/fcntl.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/fcntl.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/types.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/ee/sys-include/machine/types.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/stat.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/time.h \
+  /usr/local/ps2dev/ee/ee/sys-include/machine/time.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/features.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h \
+  /usr/local/ps2dev/ee/ee/sys-include/stdlib.h \
+  /usr/local/ps2dev/ee/ee/sys-include/alloca.h \
+  /usr/local/ps2dev/ee/ee/sys-include/unistd.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/unistd.h \
+  /usr/local/ps2dev/ee/ee/sys-include/string.h ../../../src/console.h \
+  ../../../src/lib.h ../../../src/video.h types.h ../../../src/viewport.h \
+  videoarch.h ../../../src/palette.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/param.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/fcntl.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/fcntl.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/types.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/machine/types.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/stat.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/time.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/machine/time.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/features.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdlib.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/alloca.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/unistd.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/unistd.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/string.h:
+
+../../../src/console.h:
+
+../../../src/lib.h:
+
+../../../src/video.h:
+
+types.h:
+
+../../../src/viewport.h:
+
+videoarch.h:
+
+../../../src/palette.h:

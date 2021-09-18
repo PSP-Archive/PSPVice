@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: raster - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP166.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\raster\Debug/raster.pch" /YX /Fo"libs\raster\Debug/" /Fd"libs\raster\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-cache.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-canvas.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-changes.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-line-changes-sprite.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-line-changes.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-line.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-modes.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-sprite-cache.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-sprite-status.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster-sprite.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\raster\raster.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP166.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP167.tmp" with contents
+[
+/nologo /out:"libs\raster\Debug\raster.lib" 
+".\libs\raster\Debug\raster-cache.obj"
+".\libs\raster\Debug\raster-canvas.obj"
+".\libs\raster\Debug\raster-changes.obj"
+".\libs\raster\Debug\raster-cmdline-options.obj"
+".\libs\raster\Debug\raster-line-changes-sprite.obj"
+".\libs\raster\Debug\raster-line-changes.obj"
+".\libs\raster\Debug\raster-line.obj"
+".\libs\raster\Debug\raster-modes.obj"
+".\libs\raster\Debug\raster-resources.obj"
+".\libs\raster\Debug\raster-sprite-cache.obj"
+".\libs\raster\Debug\raster-sprite-status.obj"
+".\libs\raster\Debug\raster-sprite.obj"
+.\libs\raster\Debug\raster.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP167.tmp"
+<h3>Output Window</h3>
+Compiling...
+raster-cache.c
+raster-canvas.c
+raster-changes.c
+raster-cmdline-options.c
+raster-line-changes-sprite.c
+raster-line-changes.c
+raster-line.c
+raster-modes.c
+raster-resources.c
+raster-sprite-cache.c
+raster-sprite-status.c
+raster-sprite.c
+raster.c
+Creating library...
+
+
+
+<h3>Results</h3>
+raster.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

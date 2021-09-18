@@ -1,0 +1,59 @@
+#include "vkeyboard.h"
+#include "ps2kbd.h"
+
+extern BITMAP gr_keyboard;
+
+static const int c64_keylen[] __attribute__((aligned(64))) = {
+  L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL,
+  L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_RETURN, L_CTRL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL,
+  L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_CTRL, L_NORMAL, L_NORMAL, L_NORMAL,
+  L_NORMAL, L_NORMAL, L_NORMAL, L_SPACE, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL,
+  L_CTRL, L_CTRL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_CTRL, L_NORMAL,
+  L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_CTRL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL, L_NORMAL,
+  L_NORMAL, L_NORMAL, L_CTRL, L_CTRL, L_NORMAL
+};
+
+static const int c64_maptable[] __attribute__((aligned(64))) = {
+  C_YMINMAX, 9, 19, C_XPOS, 15,
+  C_KEYLEN, L_NORMAL, C_KEY, K_LEFTARROW, C_KEY, K_1, C_KEY, K_2, C_KEY, K_3, C_KEY, K_4, C_KEY, K_5, C_KEY, K_6, C_KEY, K_7, C_KEY, K_8, C_KEY, K_9, C_KEY, K_0, C_KEY, K_PLUS, C_KEY, K_MINUS, C_KEY, K_POUND, C_KEY, K_HOME, C_KEY, K_DEL, C_XPOS, 311, C_KEYLEN, L_CTRL, C_KEY, K_F1,
+
+  C_YMINMAX, 21, 31, C_XPOS, 15,
+  C_KEYLEN, L_CTRL, C_KEY, K_CTRL, C_KEYLEN, L_NORMAL, C_KEY, K_Q, C_KEY, K_W, C_KEY, K_E, C_KEY, K_R, C_KEY, K_T, C_KEY, K_Y, C_KEY, K_U, C_KEY, K_I, C_KEY, K_O, C_KEY, K_P, C_KEY, K_AT, C_KEY, K_ASTERIX, C_KEY, K_UPARROW, C_KEYLEN, L_CTRL, C_KEY, K_RESTORE, C_XPOS, 311, C_KEY, K_F3,
+
+  C_YMINMAX, 33, 43, C_XPOS, 10,
+  C_KEYLEN, L_NORMAL, C_KEY, K_STOP, C_KEY, K_SL, C_KEY, K_A, C_KEY, K_S, C_KEY, K_D, C_KEY, K_F, C_KEY, K_G, C_KEY, K_H, C_KEY, K_J, C_KEY, K_K, C_KEY, K_L, C_KEY, K_COLON, C_KEY, K_SEMICOLON, C_KEY, K_EQUAL, C_KEYLEN, L_RETURN, C_KEY, K_RETURN, C_XPOS, 311, C_KEYLEN, L_CTRL, C_KEY, K_F5,
+
+  C_YMINMAX, 45, 55, C_XPOS, 10,
+  C_KEYLEN, L_NORMAL, C_KEY, K_CBM, C_KEYLEN, L_CTRL, C_KEY, K_LSHIFT, C_KEYLEN, L_NORMAL, C_KEY, K_Z, C_KEY, K_X, C_KEY, K_C, C_KEY, K_V, C_KEY, K_B, C_KEY, K_N, C_KEY, K_M, C_KEY, K_COMMA, C_KEY, K_DOT, C_KEY, K_SLASH, C_KEYLEN, L_CTRL, C_KEY, K_RSHIFT, C_KEYLEN, L_NORMAL, C_KEY, K_CRSRUPDOWN, C_KEY, K_CRSRLEFTRIGHT, C_XPOS, 311, C_KEYLEN, L_CTRL, C_KEY, K_F7,
+
+  C_YMINMAX, 57, 67, C_XPOS, 59,
+  C_KEYLEN, L_SPACE, C_KEY, K_SPACE,
+
+  C_END
+};
+
+static const unsigned char c64_usbkeyval[] = {
+  K_LEFTARROW, K_1, K_2, K_3, K_4, K_5, K_6, K_7, K_8, K_9, K_0, K_PLUS, K_MINUS, K_POUND, K_HOME, K_DEL, K_F1,
+  K_CTRL, K_Q, K_W, K_E, K_R, K_T, K_Y, K_U, K_I, K_O, K_P, K_AT, K_ASTERIX, K_UPARROW, K_RESTORE, K_F3,
+  K_STOP, K_SL, K_A, K_S, K_D, K_F, K_G, K_H, K_J, K_K, K_L, K_COLON, K_SEMICOLON, K_EQUAL, K_RETURN, K_F5,
+  K_CBM, K_LSHIFT, K_Z, K_X, K_C, K_V, K_B, K_N, K_M, K_COMMA, K_DOT, K_SLASH, K_RSHIFT, K_CRSRUPDOWN, K_CRSRLEFTRIGHT, K_F7,
+  K_SPACE
+};
+
+static const unsigned char c64_usbkeymap[] = {
+  53, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 45, 56, 46, 74, 42, 58,
+  43, 20, 26, 8, 21, 23, 28, 24, 12, 18, 19, 47, 50, 48, 73, 60,
+  224, 57, 4, 22, 7, 9, 10, 11, 13, 14, 15, 51, 52, 69, 40, 62,
+  226, 225, 29, 27, 6, 25, 5, 17, 16, 54, 55, 68, 229, 66, 67, 64,
+  44
+};
+
+void vkeyboard_set_c64() {
+  maptable = c64_maptable;
+  keylen = c64_keylen;
+  gr_curkbd = &gr_keyboard;
+  kbd_numkeys = 66;
+  usbkeymap = c64_usbkeymap;
+  usbkeyval = c64_usbkeyval;
+  usbkeymaplen = sizeof(c64_usbkeymap);
+}

@@ -1,0 +1,115 @@
+ps2main.o ps2main.o: ps2main.c ../../../src/vice.h ../../../src/config.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/param.h \
+  /usr/local/ps2dev/ps2lib/common/include/tamtypes.h \
+  /usr/local/ps2dev/ps2lib/ee/include/eefileio.h \
+  /usr/local/ps2dev/ps2lib/common/include/io_common.h \
+  /usr/local/ps2dev/ps2lib/ee/include/malloc.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h \
+  /usr/local/ps2dev/ps2lib/ee/include/kernel.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifdma.h \
+  /usr/local/ps2dev/ps2lib/ee/include/compat.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifcmd.h \
+  /usr/local/ps2dev/ps2lib/common/include/sifrpc.h \
+  /usr/local/ps2dev/ee/ee/sys-include/stdio.h \
+  /usr/local/ps2dev/ee/ee/sys-include/_ansi.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/config.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/reent.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/_types.h \
+  /usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/signal.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/signal.h \
+  /usr/local/ps2dev/ee/ee/sys-include/sys/features.h \
+  /usr/local/ps2dev/ee/ee/sys-include/string.h ../../../src/log.h \
+  ../../../src/machine.h types.h ../../../src/main.h ../../../src/video.h \
+  ../../../src/viewport.h /usr/local/ps2dev/ps2lib/ee/include/libpad.h \
+  loadmodule.h gs.h defines.h regs.h g2.h hw.h sjpcm.h support.h ps2kbd.h \
+  vkeyboard.h bitmap.h cdvd_vsync.h pad.h
+
+../../../src/vice.h:
+
+../../../src/config.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/limits.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/param.h:
+
+/usr/local/ps2dev/ps2lib/common/include/tamtypes.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/eefileio.h:
+
+/usr/local/ps2dev/ps2lib/common/include/io_common.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/malloc.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stddef.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/stdarg.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/kernel.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifdma.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/compat.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifcmd.h:
+
+/usr/local/ps2dev/ps2lib/common/include/sifrpc.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/stdio.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/_ansi.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/config.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/reent.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/_types.h:
+
+/usr/local/ps2dev/ee/lib/gcc-lib/ee/3.2.2/include/signal.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/signal.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/sys/features.h:
+
+/usr/local/ps2dev/ee/ee/sys-include/string.h:
+
+../../../src/log.h:
+
+../../../src/machine.h:
+
+types.h:
+
+../../../src/main.h:
+
+../../../src/video.h:
+
+../../../src/viewport.h:
+
+/usr/local/ps2dev/ps2lib/ee/include/libpad.h:
+
+loadmodule.h:
+
+gs.h:
+
+defines.h:
+
+regs.h:
+
+g2.h:
+
+hw.h:
+
+sjpcm.h:
+
+support.h:
+
+ps2kbd.h:
+
+vkeyboard.h:
+
+bitmap.h:
+
+cdvd_vsync.h:
+
+pad.h:

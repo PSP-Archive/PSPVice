@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: iec - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14F.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\iec\Debug/iec.pch" /YX /Fo"libs\iec\Debug/" /Fd"libs\iec\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\cia1571d.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\cia1581d.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\glue1571.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\iec-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\iec-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\iec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\iecrom.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\memiec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\via1d1541.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\wd1770.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14F.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP150.tmp" with contents
+[
+/nologo /out:"libs\iec\Debug\iec.lib" 
+.\libs\iec\Debug\cia1571d.obj
+.\libs\iec\Debug\cia1581d.obj
+.\libs\iec\Debug\glue1571.obj
+".\libs\iec\Debug\iec-cmdline-options.obj"
+".\libs\iec\Debug\iec-resources.obj"
+.\libs\iec\Debug\iec.obj
+.\libs\iec\Debug\iecrom.obj
+.\libs\iec\Debug\memiec.obj
+.\libs\iec\Debug\via1d1541.obj
+.\libs\iec\Debug\wd1770.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP150.tmp"
+<h3>Output Window</h3>
+Compiling...
+cia1571d.c
+cia1581d.c
+glue1571.c
+iec-cmdline-options.c
+iec-resources.c
+iec.c
+iecrom.c
+memiec.c
+via1d1541.c
+wd1770.c
+Creating library...
+
+
+
+<h3>Results</h3>
+iec.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

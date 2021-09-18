@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sid - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17B.bat" with contents
+[
+@echo off
+copy ..\\..\\sid\\resid.cc ..\\..\\sid\\resid.cpp /Y
+]
+Creating command line "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17B.bat"
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17C.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\resid" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\sid\Debug/sid.pch" /YX /Fo"libs\sid\Debug/" /Fd"libs\sid\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sid\fastsid.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sid\resid.cpp"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sid\sid-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sid\sid-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sid\sid-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\sid\sid.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17C.tmp" 
+Performing Custom Build Step on ..\..\sid\resid.cc
+        1 fichier(s) copi‚(s).
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17D.tmp" with contents
+[
+/nologo /out:"libs\sid\Debug\sid.lib" 
+.\libs\sid\Debug\fastsid.obj
+.\libs\sid\Debug\resid.obj
+".\libs\sid\Debug\sid-cmdline-options.obj"
+".\libs\sid\Debug\sid-resources.obj"
+".\libs\sid\Debug\sid-snapshot.obj"
+.\libs\sid\Debug\sid.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP17D.tmp"
+<h3>Output Window</h3>
+Compiling...
+fastsid.c
+resid.cpp
+sid-cmdline-options.c
+sid-resources.c
+sid-snapshot.c
+sid.c
+Creating library...
+
+
+
+<h3>Results</h3>
+sid.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

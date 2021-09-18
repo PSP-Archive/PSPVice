@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: iec128dcr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP151.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\iec128dcr\Debug/iec128dcr.pch" /YX /Fo"libs\iec128dcr\Debug/" /Fd"libs\iec128dcr\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec128dcr\iec128dcr-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec128dcr\iec128dcr-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec128dcr\iec128dcr.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec128dcr\iec128dcrrom.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP151.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP152.tmp" with contents
+[
+/nologo /out:"libs\iec128dcr\Debug\iec128dcr.lib" 
+".\libs\iec128dcr\Debug\iec128dcr-cmdline-options.obj"
+".\libs\iec128dcr\Debug\iec128dcr-resources.obj"
+.\libs\iec128dcr\Debug\iec128dcr.obj
+.\libs\iec128dcr\Debug\iec128dcrrom.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP152.tmp"
+<h3>Output Window</h3>
+Compiling...
+iec128dcr-cmdline-options.c
+iec128dcr-resources.c
+iec128dcr.c
+iec128dcrrom.c
+Creating library...
+
+
+
+<h3>Results</h3>
+iec128dcr.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

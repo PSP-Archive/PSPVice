@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: png - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP162.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\lib\lpng" /I "..\..\lib\zlib" /D "_DEBUG" /D "DONT_USE_UNISTD_H" /D "WIN32" /D "_WINDOWS" /D "_CRT_SECURE_NO_DEPRECATE" /Fp"libs\png\Debug/png.pch" /YX /Fo"libs\png\Debug/" /Fd"libs\png\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\png.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngerror.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngget.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngmem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngpread.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngread.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngrio.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngrtran.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngrutil.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngset.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngtrans.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngwio.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngwrite.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngwtran.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\lib\lpng\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP162.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP163.tmp" with contents
+[
+/nologo /out:"libs\png\Debug\png.lib" 
+.\libs\png\Debug\png.obj
+.\libs\png\Debug\pngerror.obj
+.\libs\png\Debug\pngget.obj
+.\libs\png\Debug\pngmem.obj
+.\libs\png\Debug\pngpread.obj
+.\libs\png\Debug\pngread.obj
+.\libs\png\Debug\pngrio.obj
+.\libs\png\Debug\pngrtran.obj
+.\libs\png\Debug\pngrutil.obj
+.\libs\png\Debug\pngset.obj
+.\libs\png\Debug\pngtrans.obj
+.\libs\png\Debug\pngwio.obj
+.\libs\png\Debug\pngwrite.obj
+.\libs\png\Debug\pngwtran.obj
+.\libs\png\Debug\pngwutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP163.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Creating library...
+
+
+
+<h3>Results</h3>
+png.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

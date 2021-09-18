@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tcbm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP180.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\tcbm\Debug/tcbm.pch" /YX /Fo"libs\tcbm\Debug/" /Fd"libs\tcbm\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\tcbm\glue1551.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\tcbm\mem1551.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\tcbm\tcbm-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\tcbm\tcbm-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\tcbm\tcbm.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\tcbm\tcbmrom.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\tcbm\tpid.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP180.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP181.tmp" with contents
+[
+/nologo /out:"libs\tcbm\Debug\tcbm.lib" 
+.\libs\tcbm\Debug\glue1551.obj
+.\libs\tcbm\Debug\mem1551.obj
+".\libs\tcbm\Debug\tcbm-cmdline-options.obj"
+".\libs\tcbm\Debug\tcbm-resources.obj"
+.\libs\tcbm\Debug\tcbm.obj
+.\libs\tcbm\Debug\tcbmrom.obj
+.\libs\tcbm\Debug\tpid.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP181.tmp"
+<h3>Output Window</h3>
+Compiling...
+glue1551.c
+mem1551.c
+tcbm-cmdline-options.c
+tcbm-resources.c
+tcbm.c
+tcbmrom.c
+tpid.c
+Creating library...
+
+
+
+<h3>Results</h3>
+tcbm.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

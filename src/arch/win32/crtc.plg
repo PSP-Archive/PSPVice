@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: crtc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14B.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\raster" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\crtc\Debug/crtc.pch" /YX /Fo"libs\crtc\Debug/" /Fd"libs\crtc\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\crtc\crtc-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\crtc\crtc-draw.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\crtc\crtc-mem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\crtc\crtc-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\crtc\crtc-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\crtc\crtc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14B.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14C.tmp" with contents
+[
+/nologo /out:"libs\crtc\Debug\crtc.lib" 
+".\libs\crtc\Debug\crtc-cmdline-options.obj"
+".\libs\crtc\Debug\crtc-draw.obj"
+".\libs\crtc\Debug\crtc-mem.obj"
+".\libs\crtc\Debug\crtc-resources.obj"
+".\libs\crtc\Debug\crtc-snapshot.obj"
+.\libs\crtc\Debug\crtc.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP14C.tmp"
+<h3>Output Window</h3>
+Compiling...
+crtc-cmdline-options.c
+crtc-draw.c
+crtc-mem.c
+crtc-resources.c
+crtc-snapshot.c
+crtc.c
+Creating library...
+
+
+
+<h3>Results</h3>
+crtc.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

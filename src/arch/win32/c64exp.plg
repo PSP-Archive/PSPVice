@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: c64exp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP143.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\c64exp\Debug/c64exp.pch" /YX /Fo"libs\c64exp\Debug/" /Fd"libs\c64exp\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\c64exp\c64exp-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\c64exp\c64exp-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\c64exp\iec-c64exp.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\c64exp\mc6821.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\drive\iec\c64exp\profdos.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP143.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP144.tmp" with contents
+[
+/nologo /out:"libs\c64exp\Debug\c64exp.lib" 
+".\libs\c64exp\Debug\c64exp-cmdline-options.obj"
+".\libs\c64exp\Debug\c64exp-resources.obj"
+".\libs\c64exp\Debug\iec-c64exp.obj"
+.\libs\c64exp\Debug\mc6821.obj
+.\libs\c64exp\Debug\profdos.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP144.tmp"
+<h3>Output Window</h3>
+Compiling...
+c64exp-cmdline-options.c
+c64exp-resources.c
+iec-c64exp.c
+mc6821.c
+profdos.c
+Creating library...
+
+
+
+<h3>Results</h3>
+c64exp.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

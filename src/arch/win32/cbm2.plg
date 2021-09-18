@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cbm2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP148.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /I "..\..\tape" /I "..\..\sid" /I "..\..\crtc" /I "..\..\vicii" /I "..\..\raster" /I "..\..\monitor" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\cbm2\Debug/cbm2.pch" /YX /Fo"libs\cbm2\Debug/" /Fd"libs\cbm2\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2acia1.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2cia1.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2bus.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2cpu.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2datasette.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2drive.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2iec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2mem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2memsnapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2printer.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2rom.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2romset.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2sound.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2tpi1.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2tpi2.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\cbm2\cbm2video.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP148.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP149.tmp" with contents
+[
+/nologo /out:"libs\cbm2\Debug\cbm2.lib" 
+".\libs\cbm2\Debug\cbm2-cmdline-options.obj"
+".\libs\cbm2\Debug\cbm2-resources.obj"
+".\libs\cbm2\Debug\cbm2-snapshot.obj"
+.\libs\cbm2\Debug\cbm2.obj
+.\libs\cbm2\Debug\cbm2acia1.obj
+.\libs\cbm2\Debug\cbm2cia1.obj
+.\libs\cbm2\Debug\cbm2bus.obj
+.\libs\cbm2\Debug\cbm2cpu.obj
+.\libs\cbm2\Debug\cbm2datasette.obj
+.\libs\cbm2\Debug\cbm2drive.obj
+.\libs\cbm2\Debug\cbm2iec.obj
+.\libs\cbm2\Debug\cbm2mem.obj
+.\libs\cbm2\Debug\cbm2memsnapshot.obj
+.\libs\cbm2\Debug\cbm2printer.obj
+.\libs\cbm2\Debug\cbm2rom.obj
+.\libs\cbm2\Debug\cbm2romset.obj
+.\libs\cbm2\Debug\cbm2sound.obj
+.\libs\cbm2\Debug\cbm2tpi1.obj
+.\libs\cbm2\Debug\cbm2tpi2.obj
+.\libs\cbm2\Debug\cbm2video.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP149.tmp"
+<h3>Output Window</h3>
+Compiling...
+cbm2-cmdline-options.c
+cbm2-resources.c
+cbm2-snapshot.c
+cbm2.c
+cbm2acia1.c
+cbm2cia1.c
+cbm2bus.c
+cbm2cpu.c
+cbm2datasette.c
+cbm2drive.c
+cbm2iec.c
+cbm2mem.c
+cbm2memsnapshot.c
+cbm2printer.c
+cbm2rom.c
+cbm2romset.c
+cbm2sound.c
+cbm2tpi1.c
+cbm2tpi2.c
+cbm2video.c
+Creating library...
+
+
+
+<h3>Results</h3>
+cbm2.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

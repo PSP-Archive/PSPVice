@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vic20 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP184.tmp" with contents
+[
+/nologo /MLd /W3 /GX /Z7 /Od /I ".\msvc" /I ".\\" /I "..\..\\" /I "..\..\drive" /I "..\..\tape" /I "..\..\raster" /I "..\..\monitor" /I "..\..\sid" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"libs\vic20\Debug/vic20.pch" /YX /Fo"libs\vic20\Debug/" /Fd"libs\vic20\Debug/" /FD /c 
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic-color.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic-draw.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic-mem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20-cmdline-options.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20-resources.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20-snapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20bus.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20cartridge.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20datasette.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20drive.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20iec.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20ieeevia1.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20ieeevia2.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20mem.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20memrom.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20memsnapshot.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20printer.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20rom.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20romset.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20rsuser.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20sound.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20via1.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20via2.c"
+"D:\Donnees\Utils\Cygwin\usr\local\pspdev\psp\sdk\samples\PSPVice\src\vic20\vic20video.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP184.tmp" 
+Creating temporary file "C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP185.tmp" with contents
+[
+/nologo /out:"libs\vic20\Debug\vic20.lib" 
+".\libs\vic20\Debug\vic-cmdline-options.obj"
+".\libs\vic20\Debug\vic-color.obj"
+".\libs\vic20\Debug\vic-draw.obj"
+".\libs\vic20\Debug\vic-mem.obj"
+".\libs\vic20\Debug\vic-resources.obj"
+".\libs\vic20\Debug\vic-snapshot.obj"
+.\libs\vic20\Debug\vic.obj
+".\libs\vic20\Debug\vic20-cmdline-options.obj"
+".\libs\vic20\Debug\vic20-resources.obj"
+".\libs\vic20\Debug\vic20-snapshot.obj"
+.\libs\vic20\Debug\vic20.obj
+.\libs\vic20\Debug\vic20bus.obj
+.\libs\vic20\Debug\vic20cartridge.obj
+.\libs\vic20\Debug\vic20datasette.obj
+.\libs\vic20\Debug\vic20drive.obj
+.\libs\vic20\Debug\vic20iec.obj
+.\libs\vic20\Debug\vic20ieeevia1.obj
+.\libs\vic20\Debug\vic20ieeevia2.obj
+.\libs\vic20\Debug\vic20mem.obj
+.\libs\vic20\Debug\vic20memrom.obj
+.\libs\vic20\Debug\vic20memsnapshot.obj
+.\libs\vic20\Debug\vic20printer.obj
+.\libs\vic20\Debug\vic20rom.obj
+.\libs\vic20\Debug\vic20romset.obj
+.\libs\vic20\Debug\vic20rsuser.obj
+.\libs\vic20\Debug\vic20sound.obj
+.\libs\vic20\Debug\vic20via1.obj
+.\libs\vic20\Debug\vic20via2.obj
+.\libs\vic20\Debug\vic20video.obj
+.\libs\base\Debug\base.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Robert\LOCALS~1\Temp\RSP185.tmp"
+<h3>Output Window</h3>
+Compiling...
+vic-cmdline-options.c
+vic-color.c
+vic-draw.c
+vic-mem.c
+vic-resources.c
+vic-snapshot.c
+vic.c
+vic20-cmdline-options.c
+vic20-resources.c
+vic20-snapshot.c
+vic20.c
+vic20bus.c
+vic20cartridge.c
+vic20datasette.c
+vic20drive.c
+vic20iec.c
+vic20ieeevia1.c
+vic20ieeevia2.c
+vic20mem.c
+vic20memrom.c
+vic20memsnapshot.c
+vic20printer.c
+vic20rom.c
+vic20romset.c
+vic20rsuser.c
+vic20sound.c
+vic20via1.c
+vic20via2.c
+vic20video.c
+Creating library...
+
+
+
+<h3>Results</h3>
+vic20.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
